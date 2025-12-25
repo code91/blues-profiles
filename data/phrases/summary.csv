@@ -1,0 +1,49 @@
+melid,performer,title,n_phrases,n_chord_segments,unique_phrase_ivs
+38,Branford Marsalis,Gutbucket Steepy,31,68,23
+39,Branford Marsalis,Housed from Edward,37,139,28
+40,Branford Marsalis,Housed from Edward,7,31,6
+52,Charlie Parker,Billie's Bounce,18,46,15
+53,Charlie Parker,Blues for Alice,12,55,9
+58,Charlie Parker,K.C. Blues,14,35,12
+141,Don Byas,Cognac Blues,16,31,16
+142,Don Byas,Harvard Blues,7,18,7
+143,Don Byas,Harvard Blues,7,18,7
+153,Eric Dolphy,245,29,55,20
+155,Eric Dolphy,Dahomey Dance,28,63,22
+158,Eric Dolphy,Serene,34,58,27
+165,Freddie Hubbard,245,23,49,20
+167,Freddie Hubbard,Down Under,8,22,8
+169,Freddie Hubbard,Society Red,27,67,18
+190,J.J. Johnson,Blue Mode,18,38,16
+191,J.J. Johnson,Blues in the Closet,56,178,41
+196,J.J. Johnson,Walkin',30,74,24
+216,John Coltrane,Bessie's Blues,19,42,14
+218,John Coltrane,Blue Train,45,85,24
+217,John Coltrane,Blues by Five,21,58,14
+226,John Coltrane,Mr. P.C.,44,111,25
+234,John Coltrane,Trane's Blues,39,88,33
+249,Kenny Dorham,Blues in Be-Bop,5,15,4
+250,Kenny Dorham,Doodlin',16,37,15
+251,Kenny Dorham,In 'n Out,22,82,15
+291,Louis Armstrong,Basin Street Blues,15,42,15
+295,Louis Armstrong,Gut Bucket Blues,6,11,4
+298,Louis Armstrong,Savoy Blues,11,29,10
+313,Miles Davis,Blues by Five,51,96,34
+316,Miles Davis,Eighty-One,30,65,23
+317,Miles Davis,K.C. Blues,11,24,9
+324,Miles Davis,Trane's Blues,24,68,23
+326,Miles Davis,Vierd Blues,20,40,19
+327,Miles Davis,Walkin',26,79,22
+379,Sonny Rollins,Blue Seven,27,55,23
+380,Sonny Rollins,Blue Seven,16,26,11
+381,Sonny Rollins,Blue Seven,13,27,13
+387,Sonny Rollins,Tenor Madness,39,89,32
+388,Sonny Rollins,The Everywhere Calypso,22,98,16
+389,Sonny Rollins,The Everywhere Calypso,32,146,20
+390,Sonny Rollins,Vierd Blues,35,75,31
+407,Steve Coleman,Processional,19,38,15
+409,Steve Coleman,Slipped again,15,38,11
+410,Steve Coleman,Take the Coltrane,55,118,36
+428,Wayne Shorter,Down Under,14,32,13
+430,Wayne Shorter,Eighty-One,30,49,25
+431,Wayne Shorter,Footprints,46,63,26

@@ -1,0 +1,1171 @@
+melid,performer,title,phrase_id,chorus_id,n_notes,tempo,complexity,dissonance,cardinality,artist_phrase_idx
+38,Branford Marsalis,Gutbucket Steepy,1,-1,9,70.1,21,7.1,7,0
+38,Branford Marsalis,Gutbucket Steepy,2,1,11,70.1,28,8.6,8,1
+38,Branford Marsalis,Gutbucket Steepy,3,1,9,70.1,10,3.8,5,2
+38,Branford Marsalis,Gutbucket Steepy,4,1,16,70.1,28,9.6,8,3
+38,Branford Marsalis,Gutbucket Steepy,5,1,31,70.1,45,15.2,10,4
+38,Branford Marsalis,Gutbucket Steepy,6,1,31,70.1,28,9.6,8,5
+38,Branford Marsalis,Gutbucket Steepy,7,2,9,70.1,15,5.6,6,6
+38,Branford Marsalis,Gutbucket Steepy,8,2,28,70.1,45,15.7,10,7
+38,Branford Marsalis,Gutbucket Steepy,9,2,7,70.1,1,0.0,2,8
+38,Branford Marsalis,Gutbucket Steepy,10,2,20,70.1,28,9.6,8,9
+38,Branford Marsalis,Gutbucket Steepy,11,2,8,70.1,15,5.3,6,10
+38,Branford Marsalis,Gutbucket Steepy,12,3,6,70.1,10,4.3,5,11
+38,Branford Marsalis,Gutbucket Steepy,13,3,18,70.1,21,6.6,7,12
+38,Branford Marsalis,Gutbucket Steepy,14,3,27,70.1,66,22.8,12,13
+38,Branford Marsalis,Gutbucket Steepy,15,3,25,70.1,28,9.1,8,14
+38,Branford Marsalis,Gutbucket Steepy,16,3,2,70.1,1,1.0,2,15
+38,Branford Marsalis,Gutbucket Steepy,17,3,5,70.1,1,1.0,2,16
+38,Branford Marsalis,Gutbucket Steepy,18,3,6,70.1,3,1.5,3,17
+38,Branford Marsalis,Gutbucket Steepy,19,3,41,70.1,21,5.3,7,18
+38,Branford Marsalis,Gutbucket Steepy,20,4,6,70.1,10,3.3,5,19
+38,Branford Marsalis,Gutbucket Steepy,21,4,11,70.1,15,4.3,6,20
+38,Branford Marsalis,Gutbucket Steepy,22,4,33,70.1,45,15.2,10,21
+38,Branford Marsalis,Gutbucket Steepy,23,4,14,70.1,6,1.0,4,22
+38,Branford Marsalis,Gutbucket Steepy,24,4,26,70.1,45,15.7,10,23
+38,Branford Marsalis,Gutbucket Steepy,25,5,10,70.1,10,2.8,5,24
+38,Branford Marsalis,Gutbucket Steepy,26,5,19,70.1,45,15.2,10,25
+38,Branford Marsalis,Gutbucket Steepy,27,5,6,70.1,3,1.5,3,26
+38,Branford Marsalis,Gutbucket Steepy,28,5,26,70.1,45,15.7,10,27
+38,Branford Marsalis,Gutbucket Steepy,29,5,16,70.1,21,6.3,7,28
+38,Branford Marsalis,Gutbucket Steepy,30,5,11,70.1,21,6.6,7,29
+38,Branford Marsalis,Gutbucket Steepy,31,5,8,70.1,10,3.8,5,30
+39,Branford Marsalis,Housed from Edward,1,1,3,126.6,3,1.5,3,31
+39,Branford Marsalis,Housed from Edward,2,1,4,126.6,6,1.0,4,32
+39,Branford Marsalis,Housed from Edward,3,1,3,126.6,3,1.3,3,33
+39,Branford Marsalis,Housed from Edward,4,1,30,126.6,36,12.9,9,34
+39,Branford Marsalis,Housed from Edward,5,2,41,126.6,55,19.0,11,35
+39,Branford Marsalis,Housed from Edward,6,2,19,126.6,10,5.5,5,36
+39,Branford Marsalis,Housed from Edward,7,3,10,126.6,15,6.1,6,37
+39,Branford Marsalis,Housed from Edward,8,3,27,126.6,55,19.0,11,38
+39,Branford Marsalis,Housed from Edward,9,3,63,126.6,66,22.8,12,39
+39,Branford Marsalis,Housed from Edward,10,4,30,126.6,36,11.9,9,40
+39,Branford Marsalis,Housed from Edward,11,4,60,126.6,55,19.0,11,41
+39,Branford Marsalis,Housed from Edward,12,4,13,126.6,28,10.1,8,42
+39,Branford Marsalis,Housed from Edward,13,5,61,126.6,66,22.8,12,43
+39,Branford Marsalis,Housed from Edward,14,5,26,126.6,45,15.2,10,44
+39,Branford Marsalis,Housed from Edward,15,5,5,126.6,10,3.0,5,45
+39,Branford Marsalis,Housed from Edward,16,5,20,126.6,21,5.8,7,46
+39,Branford Marsalis,Housed from Edward,17,6,10,126.6,15,3.0,6,47
+39,Branford Marsalis,Housed from Edward,18,6,10,126.6,10,2.8,5,48
+39,Branford Marsalis,Housed from Edward,19,6,6,126.6,6,1.0,4,49
+39,Branford Marsalis,Housed from Edward,20,6,8,126.6,21,7.6,7,50
+39,Branford Marsalis,Housed from Edward,21,6,13,126.6,28,8.6,8,51
+39,Branford Marsalis,Housed from Edward,22,7,31,126.6,55,19.0,11,52
+39,Branford Marsalis,Housed from Edward,23,7,103,126.6,55,19.0,11,53
+39,Branford Marsalis,Housed from Edward,24,8,16,126.6,21,5.3,7,54
+39,Branford Marsalis,Housed from Edward,25,8,18,126.6,15,5.3,6,55
+39,Branford Marsalis,Housed from Edward,26,8,11,126.6,21,5.3,7,56
+39,Branford Marsalis,Housed from Edward,27,8,3,126.6,3,0.5,3,57
+39,Branford Marsalis,Housed from Edward,28,9,15,126.6,15,4.3,6,58
+39,Branford Marsalis,Housed from Edward,29,9,19,126.6,36,11.9,9,59
+39,Branford Marsalis,Housed from Edward,30,9,44,126.6,36,11.9,9,60
+39,Branford Marsalis,Housed from Edward,31,9,13,126.6,6,2.0,4,61
+39,Branford Marsalis,Housed from Edward,32,9,12,126.6,6,1.5,4,62
+39,Branford Marsalis,Housed from Edward,33,9,18,126.6,15,4.3,6,63
+39,Branford Marsalis,Housed from Edward,34,10,9,126.6,15,4.3,6,64
+39,Branford Marsalis,Housed from Edward,35,10,21,126.6,28,9.9,8,65
+39,Branford Marsalis,Housed from Edward,36,10,9,126.6,15,4.6,6,66
+39,Branford Marsalis,Housed from Edward,37,10,41,126.6,36,12.4,9,67
+40,Branford Marsalis,Housed from Edward,1,-1,7,121.9,10,2.8,5,68
+40,Branford Marsalis,Housed from Edward,2,1,26,121.9,28,8.6,8,69
+40,Branford Marsalis,Housed from Edward,3,1,36,121.9,28,8.6,8,70
+40,Branford Marsalis,Housed from Edward,4,1,35,121.9,21,6.6,7,71
+40,Branford Marsalis,Housed from Edward,5,2,35,121.9,55,19.0,11,72
+40,Branford Marsalis,Housed from Edward,6,2,6,121.9,6,4.0,4,73
+40,Branford Marsalis,Housed from Edward,7,2,18,121.9,21,5.3,7,74
+52,Charlie Parker,Billie's Bounce,1,-1,20,158.5,36,11.9,9,0
+52,Charlie Parker,Billie's Bounce,2,1,26,158.5,45,15.2,10,1
+52,Charlie Parker,Billie's Bounce,3,1,21,158.5,45,15.2,10,2
+52,Charlie Parker,Billie's Bounce,4,2,15,158.5,10,4.8,5,3
+52,Charlie Parker,Billie's Bounce,5,2,11,158.5,28,9.6,8,4
+52,Charlie Parker,Billie's Bounce,6,2,8,158.5,10,2.8,5,5
+52,Charlie Parker,Billie's Bounce,7,2,11,158.5,6,1.5,4,6
+52,Charlie Parker,Billie's Bounce,8,2,31,158.5,45,15.7,10,7
+52,Charlie Parker,Billie's Bounce,9,2,4,158.5,3,1.5,3,8
+52,Charlie Parker,Billie's Bounce,10,2,38,158.5,45,15.2,10,9
+52,Charlie Parker,Billie's Bounce,11,3,13,158.5,28,8.6,8,10
+52,Charlie Parker,Billie's Bounce,12,3,13,158.5,21,6.1,7,11
+52,Charlie Parker,Billie's Bounce,13,3,17,158.5,36,11.9,9,12
+52,Charlie Parker,Billie's Bounce,14,3,20,158.5,36,12.9,9,13
+52,Charlie Parker,Billie's Bounce,15,4,6,158.5,6,1.0,4,14
+52,Charlie Parker,Billie's Bounce,16,4,5,158.5,10,2.3,5,15
+52,Charlie Parker,Billie's Bounce,17,4,28,158.5,36,11.9,9,16
+52,Charlie Parker,Billie's Bounce,18,4,16,158.5,15,3.0,6,17
+53,Charlie Parker,Blues for Alice,1,-1,24,168.9,45,15.7,10,18
+53,Charlie Parker,Blues for Alice,2,1,26,168.9,36,11.9,9,19
+53,Charlie Parker,Blues for Alice,3,1,9,168.9,15,5.3,6,20
+53,Charlie Parker,Blues for Alice,4,1,26,168.9,45,15.2,10,21
+53,Charlie Parker,Blues for Alice,5,1,33,168.9,45,15.2,10,22
+53,Charlie Parker,Blues for Alice,6,2,32,168.9,66,22.8,12,23
+53,Charlie Parker,Blues for Alice,7,2,29,168.9,55,19.0,11,24
+53,Charlie Parker,Blues for Alice,8,2,10,168.9,15,3.8,6,25
+53,Charlie Parker,Blues for Alice,9,3,19,168.9,36,11.9,9,26
+53,Charlie Parker,Blues for Alice,10,3,21,168.9,45,15.2,10,27
+53,Charlie Parker,Blues for Alice,11,3,32,168.9,36,12.7,9,28
+53,Charlie Parker,Blues for Alice,12,3,18,168.9,28,8.1,8,29
+58,Charlie Parker,K.C. Blues,1,-1,5,118.3,10,3.0,5,30
+58,Charlie Parker,K.C. Blues,2,1,16,118.3,28,9.6,8,31
+58,Charlie Parker,K.C. Blues,3,1,22,118.3,36,11.9,9,32
+58,Charlie Parker,K.C. Blues,4,1,7,118.3,21,6.9,7,33
+58,Charlie Parker,K.C. Blues,5,1,13,118.3,28,9.1,8,34
+58,Charlie Parker,K.C. Blues,6,1,25,118.3,28,8.6,8,35
+58,Charlie Parker,K.C. Blues,7,1,14,118.3,28,9.9,8,36
+58,Charlie Parker,K.C. Blues,8,1,7,118.3,10,3.0,5,37
+58,Charlie Parker,K.C. Blues,9,2,20,118.3,28,10.1,8,38
+58,Charlie Parker,K.C. Blues,10,2,15,118.3,21,5.3,7,39
+58,Charlie Parker,K.C. Blues,11,2,11,118.3,21,5.3,7,40
+58,Charlie Parker,K.C. Blues,12,2,11,118.3,28,10.9,8,41
+58,Charlie Parker,K.C. Blues,13,2,18,118.3,36,11.4,9,42
+58,Charlie Parker,K.C. Blues,14,2,12,118.3,6,1.5,4,43
+141,Don Byas,Cognac Blues,1,1,7,115.9,10,4.5,5,0
+141,Don Byas,Cognac Blues,2,1,8,115.9,15,6.3,6,1
+141,Don Byas,Cognac Blues,3,1,18,115.9,36,11.9,9,2
+141,Don Byas,Cognac Blues,4,1,7,115.9,15,4.3,6,3
+141,Don Byas,Cognac Blues,5,1,3,115.9,3,1.0,3,4
+141,Don Byas,Cognac Blues,6,1,10,115.9,28,9.9,8,5
+141,Don Byas,Cognac Blues,7,1,6,115.9,10,4.3,5,6
+141,Don Byas,Cognac Blues,8,1,3,115.9,3,0.0,3,7
+141,Don Byas,Cognac Blues,9,1,1,115.9,0,0.0,1,8
+141,Don Byas,Cognac Blues,10,2,45,115.9,66,22.8,12,9
+141,Don Byas,Cognac Blues,11,2,15,115.9,28,10.6,8,10
+141,Don Byas,Cognac Blues,12,2,6,115.9,10,3.0,5,11
+141,Don Byas,Cognac Blues,13,2,21,115.9,45,15.7,10,12
+141,Don Byas,Cognac Blues,14,2,8,115.9,10,3.3,5,13
+141,Don Byas,Cognac Blues,15,2,28,115.9,21,8.3,7,14
+141,Don Byas,Cognac Blues,16,2,7,115.9,15,6.3,6,15
+142,Don Byas,Harvard Blues,1,-1,14,98.5,28,8.6,8,16
+142,Don Byas,Harvard Blues,2,1,5,98.5,10,2.5,5,17
+142,Don Byas,Harvard Blues,3,1,10,98.5,28,9.9,8,18
+142,Don Byas,Harvard Blues,4,1,18,98.5,21,8.3,7,19
+142,Don Byas,Harvard Blues,5,1,11,98.5,28,9.1,8,20
+142,Don Byas,Harvard Blues,6,1,5,98.5,6,3.3,4,21
+142,Don Byas,Harvard Blues,7,1,9,98.5,10,4.8,5,22
+143,Don Byas,Harvard Blues,1,-1,24,99.3,21,6.6,7,23
+143,Don Byas,Harvard Blues,2,1,13,99.3,21,5.3,7,24
+143,Don Byas,Harvard Blues,3,1,26,99.3,28,9.9,8,25
+143,Don Byas,Harvard Blues,4,1,13,99.3,15,3.8,6,26
+143,Don Byas,Harvard Blues,5,1,9,99.3,21,7.9,7,27
+143,Don Byas,Harvard Blues,6,1,24,99.3,21,7.4,7,28
+143,Don Byas,Harvard Blues,7,1,13,99.3,21,6.3,7,29
+153,Eric Dolphy,245,1,1,29,71.2,55,19.0,11,0
+153,Eric Dolphy,245,2,1,27,71.2,55,19.0,11,1
+153,Eric Dolphy,245,3,1,8,71.2,15,5.6,6,2
+153,Eric Dolphy,245,4,1,12,71.2,28,8.6,8,3
+153,Eric Dolphy,245,5,1,38,71.2,66,22.8,12,4
+153,Eric Dolphy,245,6,1,40,71.2,55,19.0,11,5
+153,Eric Dolphy,245,7,1,14,71.2,28,8.6,8,6
+153,Eric Dolphy,245,8,1,56,71.2,55,19.0,11,7
+153,Eric Dolphy,245,9,2,15,71.2,21,8.3,7,8
+153,Eric Dolphy,245,10,2,49,71.2,45,15.7,10,9
+153,Eric Dolphy,245,11,2,71,71.2,55,19.0,11,10
+153,Eric Dolphy,245,12,2,23,71.2,28,8.1,8,11
+153,Eric Dolphy,245,13,2,18,71.2,36,12.4,9,12
+153,Eric Dolphy,245,14,2,8,71.2,15,4.3,6,13
+153,Eric Dolphy,245,15,2,21,71.2,36,13.9,9,14
+153,Eric Dolphy,245,16,2,28,71.2,45,15.2,10,15
+153,Eric Dolphy,245,17,2,15,71.2,36,12.4,9,16
+153,Eric Dolphy,245,18,3,9,71.2,10,5.5,5,17
+153,Eric Dolphy,245,19,3,11,71.2,6,2.5,4,18
+153,Eric Dolphy,245,20,3,16,71.2,21,7.1,7,19
+153,Eric Dolphy,245,21,3,7,71.2,21,7.1,7,20
+153,Eric Dolphy,245,22,3,11,71.2,21,8.1,7,21
+153,Eric Dolphy,245,23,3,54,71.2,55,19.0,11,22
+153,Eric Dolphy,245,24,3,24,71.2,55,19.0,11,23
+153,Eric Dolphy,245,25,3,39,71.2,45,15.7,10,24
+153,Eric Dolphy,245,26,3,12,71.2,21,6.8,7,25
+153,Eric Dolphy,245,27,3,11,71.2,21,5.3,7,26
+153,Eric Dolphy,245,28,3,12,71.2,36,11.9,9,27
+153,Eric Dolphy,245,29,3,52,71.2,55,19.0,11,28
+155,Eric Dolphy,Dahomey Dance,1,1,20,128.9,28,10.1,8,29
+155,Eric Dolphy,Dahomey Dance,2,1,9,128.9,6,2.3,4,30
+155,Eric Dolphy,Dahomey Dance,3,1,54,128.9,45,15.7,10,31
+155,Eric Dolphy,Dahomey Dance,4,2,13,128.9,21,6.8,7,32
+155,Eric Dolphy,Dahomey Dance,5,2,34,128.9,55,19.0,11,33
+155,Eric Dolphy,Dahomey Dance,6,2,35,128.9,55,19.0,11,34
+155,Eric Dolphy,Dahomey Dance,7,2,28,128.9,45,16.2,10,35
+155,Eric Dolphy,Dahomey Dance,8,3,10,128.9,15,4.0,6,36
+155,Eric Dolphy,Dahomey Dance,9,3,6,128.9,6,1.0,4,37
+155,Eric Dolphy,Dahomey Dance,10,3,25,128.9,36,12.4,9,38
+155,Eric Dolphy,Dahomey Dance,11,3,20,128.9,28,9.9,8,39
+155,Eric Dolphy,Dahomey Dance,12,3,13,128.9,21,6.3,7,40
+155,Eric Dolphy,Dahomey Dance,13,3,7,128.9,21,6.8,7,41
+155,Eric Dolphy,Dahomey Dance,14,4,22,128.9,55,19.0,11,42
+155,Eric Dolphy,Dahomey Dance,15,4,24,128.9,55,19.0,11,43
+155,Eric Dolphy,Dahomey Dance,16,4,1,128.9,0,0.0,1,44
+155,Eric Dolphy,Dahomey Dance,17,4,10,128.9,21,7.1,7,45
+155,Eric Dolphy,Dahomey Dance,18,4,35,128.9,55,19.0,11,46
+155,Eric Dolphy,Dahomey Dance,19,5,46,128.9,28,10.1,8,47
+155,Eric Dolphy,Dahomey Dance,20,5,16,128.9,10,2.5,5,48
+155,Eric Dolphy,Dahomey Dance,21,5,22,128.9,45,15.7,10,49
+155,Eric Dolphy,Dahomey Dance,22,5,6,128.9,10,4.5,5,50
+155,Eric Dolphy,Dahomey Dance,23,5,9,128.9,21,7.1,7,51
+155,Eric Dolphy,Dahomey Dance,24,6,3,128.9,3,0.5,3,52
+155,Eric Dolphy,Dahomey Dance,25,6,33,128.9,10,3.3,5,53
+155,Eric Dolphy,Dahomey Dance,26,6,10,128.9,28,9.6,8,54
+155,Eric Dolphy,Dahomey Dance,27,6,14,128.9,36,12.9,9,55
+155,Eric Dolphy,Dahomey Dance,28,6,27,128.9,36,11.9,9,56
+158,Eric Dolphy,Serene,1,-1,4,75.2,1,0.0,2,57
+158,Eric Dolphy,Serene,2,1,3,75.2,1,0.0,2,58
+158,Eric Dolphy,Serene,3,1,4,75.2,6,2.3,4,59
+158,Eric Dolphy,Serene,4,1,4,75.2,3,1.3,3,60
+158,Eric Dolphy,Serene,5,1,17,75.2,10,3.6,5,61
+158,Eric Dolphy,Serene,6,1,26,75.2,45,16.2,10,62
+158,Eric Dolphy,Serene,7,1,4,75.2,6,2.0,4,63
+158,Eric Dolphy,Serene,8,1,20,75.2,45,15.2,10,64
+158,Eric Dolphy,Serene,9,1,20,75.2,15,4.3,6,65
+158,Eric Dolphy,Serene,10,1,43,75.2,66,22.8,12,66
+158,Eric Dolphy,Serene,11,1,20,75.2,45,15.7,10,67
+158,Eric Dolphy,Serene,12,1,9,75.2,10,4.5,5,68
+158,Eric Dolphy,Serene,13,1,5,75.2,10,3.8,5,69
+158,Eric Dolphy,Serene,14,2,7,75.2,10,5.5,5,70
+158,Eric Dolphy,Serene,15,2,20,75.2,55,19.0,11,71
+158,Eric Dolphy,Serene,16,2,38,75.2,55,19.0,11,72
+158,Eric Dolphy,Serene,17,2,5,75.2,10,3.3,5,73
+158,Eric Dolphy,Serene,18,2,51,75.2,55,19.0,11,74
+158,Eric Dolphy,Serene,19,2,19,75.2,66,22.8,12,75
+158,Eric Dolphy,Serene,20,2,73,75.2,45,15.2,10,76
+158,Eric Dolphy,Serene,21,2,9,75.2,21,7.4,7,77
+158,Eric Dolphy,Serene,22,2,5,75.2,10,3.3,5,78
+158,Eric Dolphy,Serene,23,2,5,75.2,10,4.3,5,79
+158,Eric Dolphy,Serene,24,2,6,75.2,15,6.3,6,80
+158,Eric Dolphy,Serene,25,3,6,75.2,6,3.6,4,81
+158,Eric Dolphy,Serene,26,3,11,75.2,15,4.8,6,82
+158,Eric Dolphy,Serene,27,3,11,75.2,28,9.9,8,83
+158,Eric Dolphy,Serene,28,3,3,75.2,3,0.0,3,84
+158,Eric Dolphy,Serene,29,3,14,75.2,28,9.4,8,85
+158,Eric Dolphy,Serene,30,3,26,75.2,15,4.3,6,86
+158,Eric Dolphy,Serene,31,3,58,75.2,55,19.0,11,87
+158,Eric Dolphy,Serene,32,3,6,75.2,10,3.3,5,88
+158,Eric Dolphy,Serene,33,3,36,75.2,66,22.8,12,89
+158,Eric Dolphy,Serene,34,3,12,75.2,21,8.1,7,90
+165,Freddie Hubbard,245,1,1,7,73.0,6,2.0,4,0
+165,Freddie Hubbard,245,2,1,14,73.0,15,6.1,6,1
+165,Freddie Hubbard,245,3,1,20,73.0,45,15.2,10,2
+165,Freddie Hubbard,245,4,1,26,73.0,36,12.2,9,3
+165,Freddie Hubbard,245,5,1,51,73.0,66,22.8,12,4
+165,Freddie Hubbard,245,6,1,13,73.0,3,0.5,3,5
+165,Freddie Hubbard,245,7,2,23,73.0,15,4.3,6,6
+165,Freddie Hubbard,245,8,2,19,73.0,28,9.9,8,7
+165,Freddie Hubbard,245,9,2,20,73.0,36,11.9,9,8
+165,Freddie Hubbard,245,10,2,10,73.0,15,5.0,6,9
+165,Freddie Hubbard,245,11,2,27,73.0,66,22.8,12,10
+165,Freddie Hubbard,245,12,2,14,73.0,36,11.9,9,11
+165,Freddie Hubbard,245,13,2,23,73.0,10,3.3,5,12
+165,Freddie Hubbard,245,14,3,12,73.0,28,11.6,8,13
+165,Freddie Hubbard,245,15,3,42,73.0,21,6.3,7,14
+165,Freddie Hubbard,245,16,3,13,73.0,28,8.1,8,15
+165,Freddie Hubbard,245,17,3,16,73.0,36,11.9,9,16
+165,Freddie Hubbard,245,18,3,11,73.0,6,2.3,4,17
+165,Freddie Hubbard,245,19,3,16,73.0,45,15.2,10,18
+165,Freddie Hubbard,245,20,3,13,73.0,36,11.4,9,19
+165,Freddie Hubbard,245,21,3,24,73.0,55,19.0,11,20
+165,Freddie Hubbard,245,22,3,10,73.0,15,4.3,6,21
+165,Freddie Hubbard,245,23,3,15,73.0,28,9.9,8,22
+167,Freddie Hubbard,Down Under,1,1,8,146.1,10,2.5,5,23
+167,Freddie Hubbard,Down Under,2,1,22,146.1,36,12.4,9,24
+167,Freddie Hubbard,Down Under,3,1,20,146.1,45,15.2,10,25
+167,Freddie Hubbard,Down Under,4,1,5,146.1,6,0.5,4,26
+167,Freddie Hubbard,Down Under,5,2,5,146.1,10,1.5,5,27
+167,Freddie Hubbard,Down Under,6,2,4,146.1,6,1.5,4,28
+167,Freddie Hubbard,Down Under,7,2,33,146.1,36,11.9,9,29
+167,Freddie Hubbard,Down Under,8,2,13,146.1,15,4.3,6,30
+169,Freddie Hubbard,Society Red,1,1,11,113.6,1,0.0,2,31
+169,Freddie Hubbard,Society Red,2,1,9,113.6,15,4.3,6,32
+169,Freddie Hubbard,Society Red,3,1,6,113.6,1,0.0,2,33
+169,Freddie Hubbard,Society Red,4,1,10,113.6,6,2.3,4,34
+169,Freddie Hubbard,Society Red,5,1,14,113.6,10,2.8,5,35
+169,Freddie Hubbard,Society Red,6,1,23,113.6,10,2.8,5,36
+169,Freddie Hubbard,Society Red,7,2,17,113.6,6,2.3,4,37
+169,Freddie Hubbard,Society Red,8,2,15,113.6,10,2.8,5,38
+169,Freddie Hubbard,Society Red,9,2,7,113.6,10,2.5,5,39
+169,Freddie Hubbard,Society Red,10,3,8,113.6,10,3.8,5,40
+169,Freddie Hubbard,Society Red,11,3,9,113.6,10,4.8,5,41
+169,Freddie Hubbard,Society Red,12,3,9,113.6,10,2.8,5,42
+169,Freddie Hubbard,Society Red,13,3,9,113.6,6,2.3,4,43
+169,Freddie Hubbard,Society Red,14,3,9,113.6,6,2.3,4,44
+169,Freddie Hubbard,Society Red,15,3,11,113.6,15,4.6,6,45
+169,Freddie Hubbard,Society Red,16,3,30,113.6,28,9.1,8,46
+169,Freddie Hubbard,Society Red,17,3,15,113.6,21,5.8,7,47
+169,Freddie Hubbard,Society Red,18,3,12,113.6,15,4.3,6,48
+169,Freddie Hubbard,Society Red,19,4,16,113.6,28,10.1,8,49
+169,Freddie Hubbard,Society Red,20,4,22,113.6,15,4.3,6,50
+169,Freddie Hubbard,Society Red,21,4,11,113.6,15,4.0,6,51
+169,Freddie Hubbard,Society Red,22,5,23,113.6,15,4.3,6,52
+169,Freddie Hubbard,Society Red,23,5,22,113.6,21,5.3,7,53
+169,Freddie Hubbard,Society Red,24,5,65,113.6,55,19.0,11,54
+169,Freddie Hubbard,Society Red,25,6,16,113.6,36,11.4,9,55
+169,Freddie Hubbard,Society Red,26,6,37,113.6,45,15.2,10,56
+169,Freddie Hubbard,Society Red,27,6,13,113.6,21,8.3,7,57
+190,J.J. Johnson,Blue Mode,1,-1,22,64.1,36,11.9,9,0
+190,J.J. Johnson,Blue Mode,2,1,7,64.1,15,4.3,6,1
+190,J.J. Johnson,Blue Mode,3,1,24,64.1,55,19.0,11,2
+190,J.J. Johnson,Blue Mode,4,1,7,64.1,3,1.5,3,3
+190,J.J. Johnson,Blue Mode,5,1,3,64.1,1,0.0,2,4
+190,J.J. Johnson,Blue Mode,6,1,4,64.1,6,2.5,4,5
+190,J.J. Johnson,Blue Mode,7,1,3,64.1,3,1.0,3,6
+190,J.J. Johnson,Blue Mode,8,1,24,64.1,45,15.2,10,7
+190,J.J. Johnson,Blue Mode,9,1,17,64.1,36,12.7,9,8
+190,J.J. Johnson,Blue Mode,10,1,8,64.1,15,3.0,6,9
+190,J.J. Johnson,Blue Mode,11,1,10,64.1,21,7.6,7,10
+190,J.J. Johnson,Blue Mode,12,1,14,64.1,28,9.4,8,11
+190,J.J. Johnson,Blue Mode,13,1,12,64.1,28,11.6,8,12
+190,J.J. Johnson,Blue Mode,14,1,6,64.1,3,1.5,3,13
+190,J.J. Johnson,Blue Mode,15,1,16,64.1,21,6.3,7,14
+190,J.J. Johnson,Blue Mode,16,1,10,64.1,21,6.1,7,15
+190,J.J. Johnson,Blue Mode,17,1,9,64.1,10,4.1,5,16
+190,J.J. Johnson,Blue Mode,18,1,26,64.1,45,15.2,10,17
+191,J.J. Johnson,Blues in the Closet,1,-1,13,234.4,3,1.0,3,18
+191,J.J. Johnson,Blues in the Closet,2,1,7,234.4,3,0.5,3,19
+191,J.J. Johnson,Blues in the Closet,3,1,21,234.4,21,6.3,7,20
+191,J.J. Johnson,Blues in the Closet,4,1,22,234.4,28,8.6,8,21
+191,J.J. Johnson,Blues in the Closet,5,2,14,234.4,21,7.6,7,22
+191,J.J. Johnson,Blues in the Closet,6,2,6,234.4,6,2.0,4,23
+191,J.J. Johnson,Blues in the Closet,7,2,26,234.4,55,19.0,11,24
+191,J.J. Johnson,Blues in the Closet,8,3,7,234.4,10,3.8,5,25
+191,J.J. Johnson,Blues in the Closet,9,3,10,234.4,36,12.4,9,26
+191,J.J. Johnson,Blues in the Closet,10,3,14,234.4,36,11.9,9,27
+191,J.J. Johnson,Blues in the Closet,11,3,16,234.4,15,4.6,6,28
+191,J.J. Johnson,Blues in the Closet,12,4,17,234.4,28,9.2,8,29
+191,J.J. Johnson,Blues in the Closet,13,4,13,234.4,21,6.6,7,30
+191,J.J. Johnson,Blues in the Closet,14,4,20,234.4,45,15.7,10,31
+191,J.J. Johnson,Blues in the Closet,15,5,5,234.4,10,3.8,5,32
+191,J.J. Johnson,Blues in the Closet,16,5,6,234.4,10,4.8,5,33
+191,J.J. Johnson,Blues in the Closet,17,5,4,234.4,3,1.5,3,34
+191,J.J. Johnson,Blues in the Closet,18,5,16,234.4,10,4.5,5,35
+191,J.J. Johnson,Blues in the Closet,19,5,25,234.4,36,11.9,9,36
+191,J.J. Johnson,Blues in the Closet,20,6,7,234.4,10,3.8,5,37
+191,J.J. Johnson,Blues in the Closet,21,6,19,234.4,28,9.9,8,38
+191,J.J. Johnson,Blues in the Closet,22,6,8,234.4,1,0.0,2,39
+191,J.J. Johnson,Blues in the Closet,23,6,8,234.4,28,10.9,8,40
+191,J.J. Johnson,Blues in the Closet,24,7,23,234.4,36,11.9,9,41
+191,J.J. Johnson,Blues in the Closet,25,7,20,234.4,45,15.2,10,42
+191,J.J. Johnson,Blues in the Closet,26,7,24,234.4,6,2.3,4,43
+191,J.J. Johnson,Blues in the Closet,27,8,12,234.4,15,4.3,6,44
+191,J.J. Johnson,Blues in the Closet,28,8,5,234.4,6,2.0,4,45
+191,J.J. Johnson,Blues in the Closet,29,8,27,234.4,15,4.3,6,46
+191,J.J. Johnson,Blues in the Closet,30,9,10,234.4,10,3.0,5,47
+191,J.J. Johnson,Blues in the Closet,31,9,11,234.4,6,1.0,4,48
+191,J.J. Johnson,Blues in the Closet,32,9,33,234.4,36,11.9,9,49
+191,J.J. Johnson,Blues in the Closet,33,10,12,234.4,21,5.3,7,50
+191,J.J. Johnson,Blues in the Closet,34,10,7,234.4,6,4.0,4,51
+191,J.J. Johnson,Blues in the Closet,35,10,9,234.4,28,9.6,8,52
+191,J.J. Johnson,Blues in the Closet,36,10,13,234.4,28,8.6,8,53
+191,J.J. Johnson,Blues in the Closet,37,10,15,234.4,10,4.5,5,54
+191,J.J. Johnson,Blues in the Closet,38,11,15,234.4,28,10.6,8,55
+191,J.J. Johnson,Blues in the Closet,39,11,37,234.4,36,11.9,9,56
+191,J.J. Johnson,Blues in the Closet,40,12,20,234.4,28,9.1,8,57
+191,J.J. Johnson,Blues in the Closet,41,12,8,234.4,21,5.3,7,58
+191,J.J. Johnson,Blues in the Closet,42,12,7,234.4,15,4.0,6,59
+191,J.J. Johnson,Blues in the Closet,43,12,25,234.4,55,19.0,11,60
+191,J.J. Johnson,Blues in the Closet,44,13,9,234.4,28,8.6,8,61
+191,J.J. Johnson,Blues in the Closet,45,13,15,234.4,10,3.8,5,62
+191,J.J. Johnson,Blues in the Closet,46,13,7,234.4,10,2.5,5,63
+191,J.J. Johnson,Blues in the Closet,47,14,5,234.4,10,4.5,5,64
+191,J.J. Johnson,Blues in the Closet,48,14,18,234.4,55,19.0,11,65
+191,J.J. Johnson,Blues in the Closet,49,14,12,234.4,15,3.0,6,66
+191,J.J. Johnson,Blues in the Closet,50,14,20,234.4,45,15.2,10,67
+191,J.J. Johnson,Blues in the Closet,51,15,7,234.4,10,2.8,5,68
+191,J.J. Johnson,Blues in the Closet,52,15,24,234.4,1,0.0,2,69
+191,J.J. Johnson,Blues in the Closet,53,15,19,234.4,15,4.3,6,70
+191,J.J. Johnson,Blues in the Closet,54,16,4,234.4,6,4.0,4,71
+191,J.J. Johnson,Blues in the Closet,55,16,14,234.4,45,16.2,10,72
+191,J.J. Johnson,Blues in the Closet,56,16,21,234.4,21,7.6,7,73
+196,J.J. Johnson,Walkin',1,1,2,127.9,1,1.0,2,74
+196,J.J. Johnson,Walkin',2,1,8,127.9,6,2.3,4,75
+196,J.J. Johnson,Walkin',3,1,8,127.9,6,2.5,4,76
+196,J.J. Johnson,Walkin',4,1,12,127.9,28,9.6,8,77
+196,J.J. Johnson,Walkin',5,1,15,127.9,28,8.6,8,78
+196,J.J. Johnson,Walkin',6,2,10,127.9,21,6.3,7,79
+196,J.J. Johnson,Walkin',7,2,16,127.9,36,12.4,9,80
+196,J.J. Johnson,Walkin',8,2,10,127.9,21,6.6,7,81
+196,J.J. Johnson,Walkin',9,2,6,127.9,6,4.0,4,82
+196,J.J. Johnson,Walkin',10,2,11,127.9,15,6.8,6,83
+196,J.J. Johnson,Walkin',11,2,6,127.9,6,2.0,4,84
+196,J.J. Johnson,Walkin',12,2,34,127.9,36,11.9,9,85
+196,J.J. Johnson,Walkin',13,3,12,127.9,10,2.8,5,86
+196,J.J. Johnson,Walkin',14,3,28,127.9,21,5.3,7,87
+196,J.J. Johnson,Walkin',15,4,10,127.9,21,5.3,7,88
+196,J.J. Johnson,Walkin',16,4,19,127.9,36,12.4,9,89
+196,J.J. Johnson,Walkin',17,4,15,127.9,21,5.8,7,90
+196,J.J. Johnson,Walkin',18,4,11,127.9,10,3.3,5,91
+196,J.J. Johnson,Walkin',19,4,7,127.9,6,1.5,4,92
+196,J.J. Johnson,Walkin',20,5,17,127.9,10,2.0,5,93
+196,J.J. Johnson,Walkin',21,5,10,127.9,6,1.3,4,94
+196,J.J. Johnson,Walkin',22,5,27,127.9,21,6.6,7,95
+196,J.J. Johnson,Walkin',23,6,40,127.9,45,15.2,10,96
+196,J.J. Johnson,Walkin',24,6,16,127.9,15,4.6,6,97
+196,J.J. Johnson,Walkin',25,6,27,127.9,36,11.4,9,98
+196,J.J. Johnson,Walkin',26,6,19,127.9,21,5.8,7,99
+196,J.J. Johnson,Walkin',27,7,4,127.9,6,4.0,4,100
+196,J.J. Johnson,Walkin',28,7,8,127.9,15,3.0,6,101
+196,J.J. Johnson,Walkin',29,7,18,127.9,21,5.3,7,102
+196,J.J. Johnson,Walkin',30,7,8,127.9,10,1.5,5,103
+216,John Coltrane,Bessie's Blues,1,-1,14,184.3,10,3.0,5,0
+216,John Coltrane,Bessie's Blues,2,1,28,184.3,28,8.6,8,1
+216,John Coltrane,Bessie's Blues,3,1,31,184.3,28,8.6,8,2
+216,John Coltrane,Bessie's Blues,4,1,16,184.3,28,9.1,8,3
+216,John Coltrane,Bessie's Blues,5,2,31,184.3,55,19.0,11,4
+216,John Coltrane,Bessie's Blues,6,2,17,184.3,36,12.4,9,5
+216,John Coltrane,Bessie's Blues,7,2,33,184.3,55,19.0,11,6
+216,John Coltrane,Bessie's Blues,8,3,11,184.3,10,3.0,5,7
+216,John Coltrane,Bessie's Blues,9,3,31,184.3,45,15.2,10,8
+216,John Coltrane,Bessie's Blues,10,3,12,184.3,21,5.3,7,9
+216,John Coltrane,Bessie's Blues,11,4,12,184.3,28,8.6,8,10
+216,John Coltrane,Bessie's Blues,12,4,5,184.3,6,1.8,4,11
+216,John Coltrane,Bessie's Blues,13,4,4,184.3,6,2.3,4,12
+216,John Coltrane,Bessie's Blues,14,4,13,184.3,21,6.3,7,13
+216,John Coltrane,Bessie's Blues,15,4,17,184.3,28,8.6,8,14
+216,John Coltrane,Bessie's Blues,16,4,31,184.3,55,19.0,11,15
+216,John Coltrane,Bessie's Blues,17,5,10,184.3,10,2.8,5,16
+216,John Coltrane,Bessie's Blues,18,5,30,184.3,66,22.8,12,17
+216,John Coltrane,Bessie's Blues,19,5,6,184.3,15,6.1,6,18
+217,John Coltrane,Blues by Five,1,1,11,176.5,15,3.0,6,19
+217,John Coltrane,Blues by Five,2,1,6,176.5,10,4.5,5,20
+217,John Coltrane,Blues by Five,3,1,4,176.5,6,2.3,4,21
+217,John Coltrane,Blues by Five,4,1,22,176.5,45,15.7,10,22
+217,John Coltrane,Blues by Five,5,2,22,176.5,36,11.9,9,23
+217,John Coltrane,Blues by Five,6,2,27,176.5,55,19.0,11,24
+217,John Coltrane,Blues by Five,7,3,30,176.5,55,19.0,11,25
+217,John Coltrane,Blues by Five,8,3,30,176.5,36,11.9,9,26
+217,John Coltrane,Blues by Five,9,4,30,176.5,55,19.0,11,27
+217,John Coltrane,Blues by Five,10,4,15,176.5,28,8.1,8,28
+217,John Coltrane,Blues by Five,11,4,6,176.5,15,4.8,6,29
+217,John Coltrane,Blues by Five,12,4,34,176.5,66,22.8,12,30
+217,John Coltrane,Blues by Five,13,5,30,176.5,36,11.9,9,31
+217,John Coltrane,Blues by Five,14,5,14,176.5,21,5.3,7,32
+217,John Coltrane,Blues by Five,15,6,17,176.5,28,9.9,8,33
+217,John Coltrane,Blues by Five,16,6,12,176.5,21,7.8,7,34
+217,John Coltrane,Blues by Five,17,6,23,176.5,36,11.9,9,35
+217,John Coltrane,Blues by Five,18,6,45,176.5,55,19.0,11,36
+217,John Coltrane,Blues by Five,19,7,20,176.5,45,15.7,10,37
+217,John Coltrane,Blues by Five,20,7,38,176.5,66,22.8,12,38
+217,John Coltrane,Blues by Five,21,7,13,176.5,36,13.9,9,39
+218,John Coltrane,Blue Train,1,-1,16,141.4,10,3.8,5,40
+218,John Coltrane,Blue Train,2,1,30,141.4,28,9.6,8,41
+218,John Coltrane,Blue Train,3,1,8,141.4,15,3.0,6,42
+218,John Coltrane,Blue Train,4,1,28,141.4,45,15.2,10,43
+218,John Coltrane,Blue Train,5,1,16,141.4,36,11.9,9,44
+218,John Coltrane,Blue Train,6,2,8,141.4,28,8.6,8,45
+218,John Coltrane,Blue Train,7,2,35,141.4,45,15.2,10,46
+218,John Coltrane,Blue Train,8,2,36,141.4,66,22.8,12,47
+218,John Coltrane,Blue Train,9,2,28,141.4,55,19.0,11,48
+218,John Coltrane,Blue Train,10,2,16,141.4,28,10.9,8,49
+218,John Coltrane,Blue Train,11,3,15,141.4,36,12.4,9,50
+218,John Coltrane,Blue Train,12,3,22,141.4,36,11.4,9,51
+218,John Coltrane,Blue Train,13,3,12,141.4,55,19.0,11,52
+218,John Coltrane,Blue Train,14,3,12,141.4,21,5.8,7,53
+218,John Coltrane,Blue Train,15,3,37,141.4,55,19.0,11,54
+218,John Coltrane,Blue Train,16,3,9,141.4,10,2.5,5,55
+218,John Coltrane,Blue Train,17,4,6,141.4,3,1.5,3,56
+218,John Coltrane,Blue Train,18,4,28,141.4,66,22.8,12,57
+218,John Coltrane,Blue Train,19,4,70,141.4,66,22.8,12,58
+218,John Coltrane,Blue Train,20,4,28,141.4,66,22.8,12,59
+218,John Coltrane,Blue Train,21,4,18,141.4,28,9.9,8,60
+218,John Coltrane,Blue Train,22,5,12,141.4,36,11.9,9,61
+218,John Coltrane,Blue Train,23,5,27,141.4,36,11.9,9,62
+218,John Coltrane,Blue Train,24,5,51,141.4,45,15.2,10,63
+218,John Coltrane,Blue Train,25,5,24,141.4,36,11.9,9,64
+218,John Coltrane,Blue Train,26,5,31,141.4,55,19.0,11,65
+218,John Coltrane,Blue Train,27,6,12,141.4,28,9.6,8,66
+218,John Coltrane,Blue Train,28,6,15,141.4,36,11.9,9,67
+218,John Coltrane,Blue Train,29,6,33,141.4,36,11.9,9,68
+218,John Coltrane,Blue Train,30,6,50,141.4,66,22.8,12,69
+218,John Coltrane,Blue Train,31,6,2,141.4,1,0.5,2,70
+218,John Coltrane,Blue Train,32,6,37,141.4,66,22.8,12,71
+218,John Coltrane,Blue Train,33,7,44,141.4,55,19.0,11,72
+218,John Coltrane,Blue Train,34,7,16,141.4,21,5.3,7,73
+218,John Coltrane,Blue Train,35,7,20,141.4,45,15.2,10,74
+218,John Coltrane,Blue Train,36,7,15,141.4,28,8.1,8,75
+218,John Coltrane,Blue Train,37,7,11,141.4,21,6.6,7,76
+218,John Coltrane,Blue Train,38,8,3,141.4,3,0.0,3,77
+218,John Coltrane,Blue Train,39,8,4,141.4,6,2.3,4,78
+218,John Coltrane,Blue Train,40,8,13,141.4,21,6.6,7,79
+218,John Coltrane,Blue Train,41,8,23,141.4,36,11.9,9,80
+218,John Coltrane,Blue Train,42,8,12,141.4,10,1.5,5,81
+218,John Coltrane,Blue Train,43,8,11,141.4,15,3.0,6,82
+218,John Coltrane,Blue Train,44,8,10,141.4,15,3.0,6,83
+218,John Coltrane,Blue Train,45,8,38,141.4,66,22.8,12,84
+226,John Coltrane,Mr. P.C.,1,-1,19,258.2,28,9.9,8,85
+226,John Coltrane,Mr. P.C.,2,1,20,258.2,45,15.2,10,86
+226,John Coltrane,Mr. P.C.,3,1,19,258.2,36,12.9,9,87
+226,John Coltrane,Mr. P.C.,4,1,33,258.2,36,13.2,9,88
+226,John Coltrane,Mr. P.C.,5,2,46,258.2,66,22.8,12,89
+226,John Coltrane,Mr. P.C.,6,3,14,258.2,21,7.4,7,90
+226,John Coltrane,Mr. P.C.,7,3,29,258.2,55,19.0,11,91
+226,John Coltrane,Mr. P.C.,8,3,16,258.2,21,6.3,7,92
+226,John Coltrane,Mr. P.C.,9,4,54,258.2,45,15.2,10,93
+226,John Coltrane,Mr. P.C.,10,4,8,258.2,15,3.8,6,94
+226,John Coltrane,Mr. P.C.,11,4,9,258.2,15,5.3,6,95
+226,John Coltrane,Mr. P.C.,12,4,30,258.2,36,12.2,9,96
+226,John Coltrane,Mr. P.C.,13,5,45,258.2,55,19.0,11,97
+226,John Coltrane,Mr. P.C.,14,5,11,258.2,28,9.6,8,98
+226,John Coltrane,Mr. P.C.,15,5,8,258.2,1,0.5,2,99
+226,John Coltrane,Mr. P.C.,16,6,34,258.2,45,15.2,10,100
+226,John Coltrane,Mr. P.C.,17,6,25,258.2,55,19.0,11,101
+226,John Coltrane,Mr. P.C.,18,7,10,258.2,15,4.3,6,102
+226,John Coltrane,Mr. P.C.,19,7,28,258.2,45,15.2,10,103
+226,John Coltrane,Mr. P.C.,20,7,25,258.2,45,16.2,10,104
+226,John Coltrane,Mr. P.C.,21,7,53,258.2,66,22.8,12,105
+226,John Coltrane,Mr. P.C.,22,8,32,258.2,55,19.0,11,106
+226,John Coltrane,Mr. P.C.,23,8,24,258.2,21,5.8,7,107
+226,John Coltrane,Mr. P.C.,24,9,20,258.2,21,5.3,7,108
+226,John Coltrane,Mr. P.C.,25,9,14,258.2,28,8.6,8,109
+226,John Coltrane,Mr. P.C.,26,9,17,258.2,55,19.0,11,110
+226,John Coltrane,Mr. P.C.,27,9,52,258.2,66,22.8,12,111
+226,John Coltrane,Mr. P.C.,28,10,8,258.2,15,3.8,6,112
+226,John Coltrane,Mr. P.C.,29,10,14,258.2,36,11.9,9,113
+226,John Coltrane,Mr. P.C.,30,10,49,258.2,55,19.0,11,114
+226,John Coltrane,Mr. P.C.,31,11,20,258.2,55,19.0,11,115
+226,John Coltrane,Mr. P.C.,32,11,30,258.2,36,11.4,9,116
+226,John Coltrane,Mr. P.C.,33,12,37,258.2,55,19.0,11,117
+226,John Coltrane,Mr. P.C.,34,12,34,258.2,28,9.9,8,118
+226,John Coltrane,Mr. P.C.,35,13,38,258.2,28,8.1,8,119
+226,John Coltrane,Mr. P.C.,36,13,40,258.2,45,15.2,10,120
+226,John Coltrane,Mr. P.C.,37,14,20,258.2,28,8.1,8,121
+226,John Coltrane,Mr. P.C.,38,14,24,258.2,55,19.0,11,122
+226,John Coltrane,Mr. P.C.,39,14,28,258.2,55,19.0,11,123
+226,John Coltrane,Mr. P.C.,40,14,24,258.2,21,5.8,7,124
+226,John Coltrane,Mr. P.C.,41,15,22,258.2,21,5.3,7,125
+226,John Coltrane,Mr. P.C.,42,15,36,258.2,45,15.2,10,126
+226,John Coltrane,Mr. P.C.,43,16,22,258.2,45,15.2,10,127
+226,John Coltrane,Mr. P.C.,44,16,24,258.2,28,8.6,8,128
+234,John Coltrane,Trane's Blues,1,1,8,164.9,15,3.0,6,129
+234,John Coltrane,Trane's Blues,2,1,4,164.9,6,1.0,4,130
+234,John Coltrane,Trane's Blues,3,1,6,164.9,15,4.3,6,131
+234,John Coltrane,Trane's Blues,4,1,8,164.9,28,8.6,8,132
+234,John Coltrane,Trane's Blues,5,1,13,164.9,45,15.2,10,133
+234,John Coltrane,Trane's Blues,6,2,5,164.9,10,4.1,5,134
+234,John Coltrane,Trane's Blues,7,2,16,164.9,21,5.3,7,135
+234,John Coltrane,Trane's Blues,8,2,10,164.9,21,5.3,7,136
+234,John Coltrane,Trane's Blues,9,2,15,164.9,45,15.2,10,137
+234,John Coltrane,Trane's Blues,10,2,17,164.9,45,16.2,10,138
+234,John Coltrane,Trane's Blues,11,3,4,164.9,6,2.5,4,139
+234,John Coltrane,Trane's Blues,12,3,11,164.9,21,8.6,7,140
+234,John Coltrane,Trane's Blues,13,3,12,164.9,21,8.3,7,141
+234,John Coltrane,Trane's Blues,14,3,7,164.9,10,4.3,5,142
+234,John Coltrane,Trane's Blues,15,3,5,164.9,6,2.0,4,143
+234,John Coltrane,Trane's Blues,16,3,10,164.9,21,7.1,7,144
+234,John Coltrane,Trane's Blues,17,3,22,164.9,55,19.0,11,145
+234,John Coltrane,Trane's Blues,18,4,9,164.9,21,7.6,7,146
+234,John Coltrane,Trane's Blues,19,4,8,164.9,15,4.3,6,147
+234,John Coltrane,Trane's Blues,20,4,4,164.9,3,1.0,3,148
+234,John Coltrane,Trane's Blues,21,4,11,164.9,36,13.9,9,149
+234,John Coltrane,Trane's Blues,22,4,8,164.9,15,4.3,6,150
+234,John Coltrane,Trane's Blues,23,4,20,164.9,28,8.6,8,151
+234,John Coltrane,Trane's Blues,24,5,20,164.9,36,11.9,9,152
+234,John Coltrane,Trane's Blues,25,5,19,164.9,45,15.7,10,153
+234,John Coltrane,Trane's Blues,26,5,9,164.9,28,11.6,8,154
+234,John Coltrane,Trane's Blues,27,6,12,164.9,21,7.1,7,155
+234,John Coltrane,Trane's Blues,28,6,14,164.9,21,6.6,7,156
+234,John Coltrane,Trane's Blues,29,6,17,164.9,28,9.1,8,157
+234,John Coltrane,Trane's Blues,30,6,11,164.9,28,8.6,8,158
+234,John Coltrane,Trane's Blues,31,6,12,164.9,36,11.4,9,159
+234,John Coltrane,Trane's Blues,32,6,8,164.9,21,6.3,7,160
+234,John Coltrane,Trane's Blues,33,7,6,164.9,10,3.6,5,161
+234,John Coltrane,Trane's Blues,34,7,11,164.9,28,10.6,8,162
+234,John Coltrane,Trane's Blues,35,7,5,164.9,10,2.5,5,163
+234,John Coltrane,Trane's Blues,36,7,14,164.9,66,22.8,12,164
+234,John Coltrane,Trane's Blues,37,7,6,164.9,15,4.3,6,165
+234,John Coltrane,Trane's Blues,38,7,11,164.9,28,9.1,8,166
+234,John Coltrane,Trane's Blues,39,7,4,164.9,6,2.5,4,167
+249,Kenny Dorham,Blues in Be-Bop,1,1,8,186.7,15,4.3,6,0
+249,Kenny Dorham,Blues in Be-Bop,2,1,32,186.7,45,15.7,10,1
+249,Kenny Dorham,Blues in Be-Bop,3,1,39,186.7,66,22.8,12,2
+249,Kenny Dorham,Blues in Be-Bop,4,1,52,186.7,55,19.0,11,3
+249,Kenny Dorham,Blues in Be-Bop,5,2,27,186.7,66,22.8,12,4
+250,Kenny Dorham,Doodlin',1,1,7,121.1,6,1.0,4,5
+250,Kenny Dorham,Doodlin',2,1,7,121.1,6,1.3,4,6
+250,Kenny Dorham,Doodlin',3,1,11,121.1,15,4.3,6,7
+250,Kenny Dorham,Doodlin',4,1,21,121.1,28,10.4,8,8
+250,Kenny Dorham,Doodlin',5,1,10,121.1,15,4.3,6,9
+250,Kenny Dorham,Doodlin',6,1,13,121.1,15,4.3,6,10
+250,Kenny Dorham,Doodlin',7,1,17,121.1,28,9.9,8,11
+250,Kenny Dorham,Doodlin',8,2,20,121.1,45,15.2,10,12
+250,Kenny Dorham,Doodlin',9,2,46,121.1,66,22.8,12,13
+250,Kenny Dorham,Doodlin',10,3,23,121.1,36,13.2,9,14
+250,Kenny Dorham,Doodlin',11,3,10,121.1,10,3.8,5,15
+250,Kenny Dorham,Doodlin',12,3,12,121.1,28,9.6,8,16
+250,Kenny Dorham,Doodlin',13,3,8,121.1,15,4.6,6,17
+250,Kenny Dorham,Doodlin',14,3,3,121.1,1,0.0,2,18
+250,Kenny Dorham,Doodlin',15,3,15,121.1,21,6.6,7,19
+250,Kenny Dorham,Doodlin',16,3,7,121.1,6,2.0,4,20
+251,Kenny Dorham,In 'n Out,1,1,31,294.0,45,15.7,10,21
+251,Kenny Dorham,In 'n Out,2,2,35,294.0,45,15.7,10,22
+251,Kenny Dorham,In 'n Out,3,3,76,294.0,66,22.8,12,23
+251,Kenny Dorham,In 'n Out,4,3,13,294.0,10,5.5,5,24
+251,Kenny Dorham,In 'n Out,5,4,8,294.0,10,5.5,5,25
+251,Kenny Dorham,In 'n Out,6,4,20,294.0,45,15.7,10,26
+251,Kenny Dorham,In 'n Out,7,4,45,294.0,66,22.8,12,27
+251,Kenny Dorham,In 'n Out,8,5,11,294.0,15,3.0,6,28
+251,Kenny Dorham,In 'n Out,9,5,7,294.0,3,1.0,3,29
+251,Kenny Dorham,In 'n Out,10,6,16,294.0,28,8.6,8,30
+251,Kenny Dorham,In 'n Out,11,7,7,294.0,15,6.3,6,31
+251,Kenny Dorham,In 'n Out,12,7,8,294.0,10,4.5,5,32
+251,Kenny Dorham,In 'n Out,13,7,36,294.0,55,19.0,11,33
+251,Kenny Dorham,In 'n Out,14,7,22,294.0,36,13.9,9,34
+251,Kenny Dorham,In 'n Out,15,8,33,294.0,66,22.8,12,35
+251,Kenny Dorham,In 'n Out,16,8,33,294.0,21,7.8,7,36
+251,Kenny Dorham,In 'n Out,17,9,16,294.0,36,12.4,9,37
+251,Kenny Dorham,In 'n Out,18,9,10,294.0,10,2.8,5,38
+251,Kenny Dorham,In 'n Out,19,10,35,294.0,55,19.0,11,39
+251,Kenny Dorham,In 'n Out,20,10,49,294.0,36,11.9,9,40
+251,Kenny Dorham,In 'n Out,21,11,66,294.0,66,22.8,12,41
+251,Kenny Dorham,In 'n Out,22,12,12,294.0,15,4.3,6,42
+291,Louis Armstrong,Basin Street Blues,1,1,10,107.2,3,0.0,3,0
+291,Louis Armstrong,Basin Street Blues,2,1,11,107.2,15,6.1,6,1
+291,Louis Armstrong,Basin Street Blues,3,1,8,107.2,15,4.0,6,2
+291,Louis Armstrong,Basin Street Blues,4,1,10,107.2,6,1.3,4,3
+291,Louis Armstrong,Basin Street Blues,5,1,7,107.2,3,1.8,3,4
+291,Louis Armstrong,Basin Street Blues,6,1,24,107.2,66,22.8,12,5
+291,Louis Armstrong,Basin Street Blues,7,2,45,107.2,36,12.4,9,6
+291,Louis Armstrong,Basin Street Blues,8,2,7,107.2,6,2.5,4,7
+291,Louis Armstrong,Basin Street Blues,9,2,7,107.2,6,2.0,4,8
+291,Louis Armstrong,Basin Street Blues,10,2,16,107.2,21,6.6,7,9
+291,Louis Armstrong,Basin Street Blues,11,3,13,107.2,36,12.4,9,10
+291,Louis Armstrong,Basin Street Blues,12,3,31,107.2,21,6.3,7,11
+291,Louis Armstrong,Basin Street Blues,13,3,13,107.2,10,4.6,5,12
+291,Louis Armstrong,Basin Street Blues,14,3,9,107.2,21,7.4,7,13
+291,Louis Armstrong,Basin Street Blues,15,3,8,107.2,6,2.3,4,14
+295,Louis Armstrong,Gut Bucket Blues,1,-1,8,146.0,10,1.5,5,15
+295,Louis Armstrong,Gut Bucket Blues,2,1,6,146.0,3,1.5,3,16
+295,Louis Armstrong,Gut Bucket Blues,3,1,6,146.0,6,2.3,4,17
+295,Louis Armstrong,Gut Bucket Blues,4,1,6,146.0,6,2.3,4,18
+295,Louis Armstrong,Gut Bucket Blues,5,1,6,146.0,6,2.3,4,19
+295,Louis Armstrong,Gut Bucket Blues,6,1,16,146.0,21,6.3,7,20
+298,Louis Armstrong,Savoy Blues,1,-1,6,129.3,6,1.0,4,21
+298,Louis Armstrong,Savoy Blues,2,1,13,129.3,21,5.3,7,22
+298,Louis Armstrong,Savoy Blues,3,1,14,129.3,28,9.1,8,23
+298,Louis Armstrong,Savoy Blues,4,1,10,129.3,10,3.3,5,24
+298,Louis Armstrong,Savoy Blues,5,1,12,129.3,21,5.3,7,25
+298,Louis Armstrong,Savoy Blues,6,1,8,129.3,10,2.0,5,26
+298,Louis Armstrong,Savoy Blues,7,1,10,129.3,15,5.3,6,27
+298,Louis Armstrong,Savoy Blues,8,1,25,129.3,10,1.5,5,28
+298,Louis Armstrong,Savoy Blues,9,2,22,129.3,21,5.8,7,29
+298,Louis Armstrong,Savoy Blues,10,2,27,129.3,45,15.2,10,30
+298,Louis Armstrong,Savoy Blues,11,2,12,129.3,28,10.1,8,31
+313,Miles Davis,Blues by Five,1,1,3,177.9,0,0.0,1,0
+313,Miles Davis,Blues by Five,2,1,6,177.9,3,1.0,3,1
+313,Miles Davis,Blues by Five,3,1,5,177.9,6,1.0,4,2
+313,Miles Davis,Blues by Five,4,1,7,177.9,6,1.0,4,3
+313,Miles Davis,Blues by Five,5,1,7,177.9,10,4.5,5,4
+313,Miles Davis,Blues by Five,6,1,7,177.9,10,3.0,5,5
+313,Miles Davis,Blues by Five,7,1,3,177.9,3,0.0,3,6
+313,Miles Davis,Blues by Five,8,2,8,177.9,10,3.0,5,7
+313,Miles Davis,Blues by Five,9,2,4,177.9,6,1.8,4,8
+313,Miles Davis,Blues by Five,10,2,12,177.9,28,9.4,8,9
+313,Miles Davis,Blues by Five,11,2,7,177.9,6,2.3,4,10
+313,Miles Davis,Blues by Five,12,2,8,177.9,15,3.8,6,11
+313,Miles Davis,Blues by Five,13,3,14,177.9,6,1.0,4,12
+313,Miles Davis,Blues by Five,14,3,2,177.9,1,0.5,2,13
+313,Miles Davis,Blues by Five,15,3,15,177.9,10,3.0,5,14
+313,Miles Davis,Blues by Five,16,3,14,177.9,21,6.3,7,15
+313,Miles Davis,Blues by Five,17,4,2,177.9,1,0.5,2,16
+313,Miles Davis,Blues by Five,18,4,3,177.9,3,2.5,3,17
+313,Miles Davis,Blues by Five,19,4,2,177.9,0,0.0,1,18
+313,Miles Davis,Blues by Five,20,4,2,177.9,1,0.0,2,19
+313,Miles Davis,Blues by Five,21,4,16,177.9,36,11.9,9,20
+313,Miles Davis,Blues by Five,22,4,4,177.9,6,1.5,4,21
+313,Miles Davis,Blues by Five,23,4,19,177.9,28,8.6,8,22
+313,Miles Davis,Blues by Five,24,5,11,177.9,28,9.1,8,23
+313,Miles Davis,Blues by Five,25,5,8,177.9,10,5.5,5,24
+313,Miles Davis,Blues by Five,26,5,7,177.9,10,5.1,5,25
+313,Miles Davis,Blues by Five,27,5,10,177.9,15,6.1,6,26
+313,Miles Davis,Blues by Five,28,5,11,177.9,28,8.1,8,27
+313,Miles Davis,Blues by Five,29,5,6,177.9,10,2.5,5,28
+313,Miles Davis,Blues by Five,30,6,3,177.9,0,0.0,1,29
+313,Miles Davis,Blues by Five,31,6,4,177.9,1,0.5,2,30
+313,Miles Davis,Blues by Five,32,6,4,177.9,1,0.0,2,31
+313,Miles Davis,Blues by Five,33,6,4,177.9,3,0.5,3,32
+313,Miles Davis,Blues by Five,34,6,4,177.9,3,0.0,3,33
+313,Miles Davis,Blues by Five,35,6,5,177.9,3,2.5,3,34
+313,Miles Davis,Blues by Five,36,6,4,177.9,1,1.0,2,35
+313,Miles Davis,Blues by Five,37,6,6,177.9,6,1.5,4,36
+313,Miles Davis,Blues by Five,38,6,6,177.9,1,0.5,2,37
+313,Miles Davis,Blues by Five,39,7,3,177.9,3,0.5,3,38
+313,Miles Davis,Blues by Five,40,7,3,177.9,3,1.5,3,39
+313,Miles Davis,Blues by Five,41,7,5,177.9,10,2.5,5,40
+313,Miles Davis,Blues by Five,42,7,4,177.9,6,3.0,4,41
+313,Miles Davis,Blues by Five,43,7,10,177.9,36,11.9,9,42
+313,Miles Davis,Blues by Five,44,7,10,177.9,15,3.0,6,43
+313,Miles Davis,Blues by Five,45,7,7,177.9,6,2.3,4,44
+313,Miles Davis,Blues by Five,46,7,5,177.9,6,1.5,4,45
+313,Miles Davis,Blues by Five,47,7,3,177.9,3,1.0,3,46
+313,Miles Davis,Blues by Five,48,8,28,177.9,55,19.0,11,47
+313,Miles Davis,Blues by Five,49,8,3,177.9,1,0.5,2,48
+313,Miles Davis,Blues by Five,50,8,17,177.9,28,8.6,8,49
+313,Miles Davis,Blues by Five,51,8,10,177.9,10,5.5,5,50
+316,Miles Davis,Eighty-One,1,-1,5,138.3,6,2.3,4,51
+316,Miles Davis,Eighty-One,2,1,8,138.3,6,1.0,4,52
+316,Miles Davis,Eighty-One,3,1,9,138.3,10,3.8,5,53
+316,Miles Davis,Eighty-One,4,1,11,138.3,6,1.0,4,54
+316,Miles Davis,Eighty-One,5,1,11,138.3,15,3.8,6,55
+316,Miles Davis,Eighty-One,6,1,8,138.3,10,2.0,5,56
+316,Miles Davis,Eighty-One,7,1,5,138.3,6,2.0,4,57
+316,Miles Davis,Eighty-One,8,2,9,138.3,15,5.1,6,58
+316,Miles Davis,Eighty-One,9,2,10,138.3,15,3.0,6,59
+316,Miles Davis,Eighty-One,10,2,7,138.3,10,3.8,5,60
+316,Miles Davis,Eighty-One,11,2,22,138.3,66,22.8,12,61
+316,Miles Davis,Eighty-One,12,2,17,138.3,45,15.7,10,62
+316,Miles Davis,Eighty-One,13,3,7,138.3,3,1.0,3,63
+316,Miles Davis,Eighty-One,14,3,9,138.3,10,2.0,5,64
+316,Miles Davis,Eighty-One,15,3,7,138.3,6,1.0,4,65
+316,Miles Davis,Eighty-One,16,3,17,138.3,45,15.2,10,66
+316,Miles Davis,Eighty-One,17,3,6,138.3,10,2.0,5,67
+316,Miles Davis,Eighty-One,18,3,13,138.3,15,3.0,6,68
+316,Miles Davis,Eighty-One,19,4,7,138.3,10,2.8,5,69
+316,Miles Davis,Eighty-One,20,4,33,138.3,6,2.0,4,70
+316,Miles Davis,Eighty-One,21,4,20,138.3,36,12.4,9,71
+316,Miles Davis,Eighty-One,22,4,11,138.3,21,6.3,7,72
+316,Miles Davis,Eighty-One,23,5,16,138.3,28,9.6,8,73
+316,Miles Davis,Eighty-One,24,5,9,138.3,10,2.0,5,74
+316,Miles Davis,Eighty-One,25,5,25,138.3,36,13.9,9,75
+316,Miles Davis,Eighty-One,26,5,16,138.3,15,6.8,6,76
+316,Miles Davis,Eighty-One,27,6,13,138.3,28,8.6,8,77
+316,Miles Davis,Eighty-One,28,6,34,138.3,45,15.7,10,78
+316,Miles Davis,Eighty-One,29,6,3,138.3,3,1.5,3,79
+316,Miles Davis,Eighty-One,30,6,5,138.3,10,2.8,5,80
+317,Miles Davis,K.C. Blues,1,1,13,120.1,6,1.0,4,81
+317,Miles Davis,K.C. Blues,2,1,8,120.1,28,10.6,8,82
+317,Miles Davis,K.C. Blues,3,1,7,120.1,15,5.3,6,83
+317,Miles Davis,K.C. Blues,4,1,17,120.1,36,11.4,9,84
+317,Miles Davis,K.C. Blues,5,1,15,120.1,6,1.5,4,85
+317,Miles Davis,K.C. Blues,6,2,10,120.1,15,4.8,6,86
+317,Miles Davis,K.C. Blues,7,2,4,120.1,6,0.5,4,87
+317,Miles Davis,K.C. Blues,8,2,9,120.1,6,1.0,4,88
+317,Miles Davis,K.C. Blues,9,2,6,120.1,15,6.3,6,89
+317,Miles Davis,K.C. Blues,10,2,19,120.1,36,11.4,9,90
+317,Miles Davis,K.C. Blues,11,2,8,120.1,6,0.5,4,91
+324,Miles Davis,Trane's Blues,1,1,6,164.0,6,3.3,4,92
+324,Miles Davis,Trane's Blues,2,1,9,164.0,15,5.6,6,93
+324,Miles Davis,Trane's Blues,3,1,5,164.0,6,1.0,4,94
+324,Miles Davis,Trane's Blues,4,1,10,164.0,15,3.8,6,95
+324,Miles Davis,Trane's Blues,5,1,38,164.0,28,9.1,8,96
+324,Miles Davis,Trane's Blues,6,2,11,164.0,15,5.3,6,97
+324,Miles Davis,Trane's Blues,7,2,16,164.0,36,11.4,9,98
+324,Miles Davis,Trane's Blues,8,2,6,164.0,10,3.0,5,99
+324,Miles Davis,Trane's Blues,9,2,11,164.0,15,4.6,6,100
+324,Miles Davis,Trane's Blues,10,3,11,164.0,15,5.3,6,101
+324,Miles Davis,Trane's Blues,11,3,8,164.0,21,5.3,7,102
+324,Miles Davis,Trane's Blues,12,3,6,164.0,10,1.5,5,103
+324,Miles Davis,Trane's Blues,13,3,17,164.0,1,0.0,2,104
+324,Miles Davis,Trane's Blues,14,3,4,164.0,3,1.0,3,105
+324,Miles Davis,Trane's Blues,15,4,6,164.0,10,2.8,5,106
+324,Miles Davis,Trane's Blues,16,4,10,164.0,28,9.2,8,107
+324,Miles Davis,Trane's Blues,17,4,6,164.0,6,2.3,4,108
+324,Miles Davis,Trane's Blues,18,4,8,164.0,15,5.0,6,109
+324,Miles Davis,Trane's Blues,19,4,11,164.0,28,8.6,8,110
+324,Miles Davis,Trane's Blues,20,4,5,164.0,10,4.1,5,111
+324,Miles Davis,Trane's Blues,21,5,7,164.0,21,8.6,7,112
+324,Miles Davis,Trane's Blues,22,5,7,164.0,15,6.3,6,113
+324,Miles Davis,Trane's Blues,23,5,9,164.0,21,6.6,7,114
+324,Miles Davis,Trane's Blues,24,5,35,164.0,55,19.0,11,115
+326,Miles Davis,Vierd Blues,1,1,4,114.7,1,1.0,2,116
+326,Miles Davis,Vierd Blues,2,1,7,114.7,10,3.3,5,117
+326,Miles Davis,Vierd Blues,3,1,11,114.7,15,4.3,6,118
+326,Miles Davis,Vierd Blues,4,1,35,114.7,21,6.9,7,119
+326,Miles Davis,Vierd Blues,5,1,4,114.7,1,0.0,2,120
+326,Miles Davis,Vierd Blues,6,2,6,114.7,15,4.3,6,121
+326,Miles Davis,Vierd Blues,7,2,6,114.7,10,3.0,5,122
+326,Miles Davis,Vierd Blues,8,2,6,114.7,10,3.0,5,123
+326,Miles Davis,Vierd Blues,9,2,3,114.7,1,0.5,2,124
+326,Miles Davis,Vierd Blues,10,2,7,114.7,15,3.8,6,125
+326,Miles Davis,Vierd Blues,11,2,9,114.7,3,1.0,3,126
+326,Miles Davis,Vierd Blues,12,3,9,114.7,6,1.0,4,127
+326,Miles Davis,Vierd Blues,13,3,9,114.7,15,6.3,6,128
+326,Miles Davis,Vierd Blues,14,3,1,114.7,0,0.0,1,129
+326,Miles Davis,Vierd Blues,15,3,7,114.7,10,4.5,5,130
+326,Miles Davis,Vierd Blues,16,3,10,114.7,1,0.0,2,131
+326,Miles Davis,Vierd Blues,17,4,12,114.7,6,2.3,4,132
+326,Miles Davis,Vierd Blues,18,4,4,114.7,6,4.0,4,133
+326,Miles Davis,Vierd Blues,19,4,4,114.7,6,2.0,4,134
+326,Miles Davis,Vierd Blues,20,4,3,114.7,3,2.5,3,135
+327,Miles Davis,Walkin',1,-1,8,127.7,15,4.0,6,136
+327,Miles Davis,Walkin',2,1,8,127.7,6,2.3,4,137
+327,Miles Davis,Walkin',3,1,18,127.7,36,11.9,9,138
+327,Miles Davis,Walkin',4,1,7,127.7,15,4.6,6,139
+327,Miles Davis,Walkin',5,1,16,127.7,28,10.6,8,140
+327,Miles Davis,Walkin',6,2,17,127.7,28,8.1,8,141
+327,Miles Davis,Walkin',7,2,10,127.7,10,3.8,5,142
+327,Miles Davis,Walkin',8,2,24,127.7,45,15.7,10,143
+327,Miles Davis,Walkin',9,3,42,127.7,55,19.0,11,144
+327,Miles Davis,Walkin',10,3,49,127.7,55,19.0,11,145
+327,Miles Davis,Walkin',11,4,27,127.7,45,15.2,10,146
+327,Miles Davis,Walkin',12,4,14,127.7,28,8.6,8,147
+327,Miles Davis,Walkin',13,4,44,127.7,55,19.0,11,148
+327,Miles Davis,Walkin',14,4,13,127.7,21,7.8,7,149
+327,Miles Davis,Walkin',15,5,19,127.7,45,15.2,10,150
+327,Miles Davis,Walkin',16,5,14,127.7,45,15.2,10,151
+327,Miles Davis,Walkin',17,5,11,127.7,15,6.3,6,152
+327,Miles Davis,Walkin',18,5,5,127.7,6,0.5,4,153
+327,Miles Davis,Walkin',19,6,5,127.7,6,0.5,4,154
+327,Miles Davis,Walkin',20,6,15,127.7,28,9.6,8,155
+327,Miles Davis,Walkin',21,6,35,127.7,28,10.1,8,156
+327,Miles Davis,Walkin',22,6,21,127.7,28,8.6,8,157
+327,Miles Davis,Walkin',23,7,16,127.7,10,4.8,5,158
+327,Miles Davis,Walkin',24,7,5,127.7,6,1.5,4,159
+327,Miles Davis,Walkin',25,7,10,127.7,10,3.3,5,160
+327,Miles Davis,Walkin',26,7,5,127.7,10,3.0,5,161
+379,Sonny Rollins,Blue Seven,1,-1,3,134.6,1,1.0,2,0
+379,Sonny Rollins,Blue Seven,2,1,9,134.6,10,2.5,5,1
+379,Sonny Rollins,Blue Seven,3,1,6,134.6,6,1.0,4,2
+379,Sonny Rollins,Blue Seven,4,1,12,134.6,21,7.1,7,3
+379,Sonny Rollins,Blue Seven,5,1,37,134.6,66,22.8,12,4
+379,Sonny Rollins,Blue Seven,6,1,4,134.6,6,2.0,4,5
+379,Sonny Rollins,Blue Seven,7,2,1,134.6,0,0.0,1,6
+379,Sonny Rollins,Blue Seven,8,2,18,134.6,21,7.6,7,7
+379,Sonny Rollins,Blue Seven,9,2,7,134.6,6,2.3,4,8
+379,Sonny Rollins,Blue Seven,10,2,7,134.6,6,1.0,4,9
+379,Sonny Rollins,Blue Seven,11,2,5,134.6,6,1.0,4,10
+379,Sonny Rollins,Blue Seven,12,2,28,134.6,36,11.9,9,11
+379,Sonny Rollins,Blue Seven,13,3,4,134.6,6,1.5,4,12
+379,Sonny Rollins,Blue Seven,14,3,16,134.6,21,6.1,7,13
+379,Sonny Rollins,Blue Seven,15,3,14,134.6,21,6.1,7,14
+379,Sonny Rollins,Blue Seven,16,3,12,134.6,28,8.6,8,15
+379,Sonny Rollins,Blue Seven,17,3,24,134.6,36,12.4,9,16
+379,Sonny Rollins,Blue Seven,18,4,5,134.6,10,3.0,5,17
+379,Sonny Rollins,Blue Seven,19,4,20,134.6,55,19.0,11,18
+379,Sonny Rollins,Blue Seven,20,4,44,134.6,66,22.8,12,19
+379,Sonny Rollins,Blue Seven,21,4,17,134.6,28,8.6,8,20
+379,Sonny Rollins,Blue Seven,22,4,5,134.6,6,3.3,4,21
+379,Sonny Rollins,Blue Seven,23,5,8,134.6,15,3.0,6,22
+379,Sonny Rollins,Blue Seven,24,5,5,134.6,10,3.1,5,23
+379,Sonny Rollins,Blue Seven,25,5,11,134.6,15,4.3,6,24
+379,Sonny Rollins,Blue Seven,26,5,23,134.6,45,15.2,10,25
+379,Sonny Rollins,Blue Seven,27,5,8,134.6,15,6.1,6,26
+380,Sonny Rollins,Blue Seven,1,1,8,137.6,10,3.3,5,27
+380,Sonny Rollins,Blue Seven,2,1,13,137.6,10,3.3,5,28
+380,Sonny Rollins,Blue Seven,3,1,22,137.6,45,15.2,10,29
+380,Sonny Rollins,Blue Seven,4,1,26,137.6,28,8.1,8,30
+380,Sonny Rollins,Blue Seven,5,1,3,137.6,3,2.5,3,31
+380,Sonny Rollins,Blue Seven,6,1,11,137.6,6,1.0,4,32
+380,Sonny Rollins,Blue Seven,7,1,17,137.6,21,6.8,7,33
+380,Sonny Rollins,Blue Seven,8,1,3,137.6,3,0.0,3,34
+380,Sonny Rollins,Blue Seven,9,2,3,137.6,3,0.5,3,35
+380,Sonny Rollins,Blue Seven,10,2,8,137.6,6,1.0,4,36
+380,Sonny Rollins,Blue Seven,11,2,3,137.6,3,1.0,3,37
+380,Sonny Rollins,Blue Seven,12,2,3,137.6,3,0.5,3,38
+380,Sonny Rollins,Blue Seven,13,2,8,137.6,6,1.0,4,39
+380,Sonny Rollins,Blue Seven,14,2,2,137.6,1,0.0,2,40
+380,Sonny Rollins,Blue Seven,15,2,3,137.6,3,2.5,3,41
+380,Sonny Rollins,Blue Seven,16,2,2,137.6,1,0.0,2,42
+381,Sonny Rollins,Blue Seven,1,1,4,133.3,1,0.8,2,43
+381,Sonny Rollins,Blue Seven,2,1,17,133.3,10,3.0,5,44
+381,Sonny Rollins,Blue Seven,3,1,33,133.3,45,16.2,10,45
+381,Sonny Rollins,Blue Seven,4,1,6,133.3,10,3.3,5,46
+381,Sonny Rollins,Blue Seven,5,1,38,133.3,55,19.0,11,47
+381,Sonny Rollins,Blue Seven,6,2,4,133.3,6,1.3,4,48
+381,Sonny Rollins,Blue Seven,7,2,10,133.3,6,1.5,4,49
+381,Sonny Rollins,Blue Seven,8,2,15,133.3,10,3.3,5,50
+381,Sonny Rollins,Blue Seven,9,2,9,133.3,1,1.0,2,51
+381,Sonny Rollins,Blue Seven,10,2,4,133.3,6,2.0,4,52
+381,Sonny Rollins,Blue Seven,11,2,23,133.3,45,15.2,10,53
+381,Sonny Rollins,Blue Seven,12,2,10,133.3,15,4.0,6,54
+381,Sonny Rollins,Blue Seven,13,2,5,133.3,6,2.3,4,55
+387,Sonny Rollins,Tenor Madness,1,1,5,175.6,1,0.0,2,56
+387,Sonny Rollins,Tenor Madness,2,1,7,175.6,1,0.0,2,57
+387,Sonny Rollins,Tenor Madness,3,1,5,175.6,3,0.0,3,58
+387,Sonny Rollins,Tenor Madness,4,1,7,175.6,15,6.3,6,59
+387,Sonny Rollins,Tenor Madness,5,1,26,175.6,28,8.6,8,60
+387,Sonny Rollins,Tenor Madness,6,1,9,175.6,3,0.0,3,61
+387,Sonny Rollins,Tenor Madness,7,2,6,175.6,10,2.3,5,62
+387,Sonny Rollins,Tenor Madness,8,2,28,175.6,45,15.2,10,63
+387,Sonny Rollins,Tenor Madness,9,2,7,175.6,6,2.0,4,64
+387,Sonny Rollins,Tenor Madness,10,2,7,175.6,6,2.0,4,65
+387,Sonny Rollins,Tenor Madness,11,2,9,175.6,6,1.0,4,66
+387,Sonny Rollins,Tenor Madness,12,3,5,175.6,6,1.0,4,67
+387,Sonny Rollins,Tenor Madness,13,3,11,175.6,45,15.2,10,68
+387,Sonny Rollins,Tenor Madness,14,3,12,175.6,10,2.5,5,69
+387,Sonny Rollins,Tenor Madness,15,3,8,175.6,10,3.3,5,70
+387,Sonny Rollins,Tenor Madness,16,3,10,175.6,15,4.3,6,71
+387,Sonny Rollins,Tenor Madness,17,4,7,175.6,15,4.0,6,72
+387,Sonny Rollins,Tenor Madness,18,4,10,175.6,15,5.3,6,73
+387,Sonny Rollins,Tenor Madness,19,4,25,175.6,28,9.6,8,74
+387,Sonny Rollins,Tenor Madness,20,4,14,175.6,21,5.3,7,75
+387,Sonny Rollins,Tenor Madness,21,4,4,175.6,6,1.5,4,76
+387,Sonny Rollins,Tenor Madness,22,5,1,175.6,0,0.0,1,77
+387,Sonny Rollins,Tenor Madness,23,5,24,175.6,45,15.2,10,78
+387,Sonny Rollins,Tenor Madness,24,5,7,175.6,10,4.1,5,79
+387,Sonny Rollins,Tenor Madness,25,5,24,175.6,45,15.2,10,80
+387,Sonny Rollins,Tenor Madness,26,5,30,175.6,45,15.2,10,81
+387,Sonny Rollins,Tenor Madness,27,6,6,175.6,3,0.8,3,82
+387,Sonny Rollins,Tenor Madness,28,6,28,175.6,28,8.1,8,83
+387,Sonny Rollins,Tenor Madness,29,6,11,175.6,28,10.6,8,84
+387,Sonny Rollins,Tenor Madness,30,7,10,175.6,21,5.8,7,85
+387,Sonny Rollins,Tenor Madness,31,7,13,175.6,28,9.1,8,86
+387,Sonny Rollins,Tenor Madness,32,7,5,175.6,10,2.8,5,87
+387,Sonny Rollins,Tenor Madness,33,7,4,175.6,6,0.5,4,88
+387,Sonny Rollins,Tenor Madness,34,7,6,175.6,10,3.6,5,89
+387,Sonny Rollins,Tenor Madness,35,7,14,175.6,28,9.9,8,90
+387,Sonny Rollins,Tenor Madness,36,7,31,175.6,36,12.4,9,91
+387,Sonny Rollins,Tenor Madness,37,8,13,175.6,10,3.8,5,92
+387,Sonny Rollins,Tenor Madness,38,8,10,175.6,21,8.3,7,93
+387,Sonny Rollins,Tenor Madness,39,8,48,175.6,66,22.8,12,94
+388,Sonny Rollins,The Everywhere Calypso,1,-1,10,192.6,6,1.0,4,95
+388,Sonny Rollins,The Everywhere Calypso,2,1,30,192.6,36,11.9,9,96
+388,Sonny Rollins,The Everywhere Calypso,3,1,18,192.6,10,2.0,5,97
+388,Sonny Rollins,The Everywhere Calypso,4,2,25,192.6,36,11.4,9,98
+388,Sonny Rollins,The Everywhere Calypso,5,2,6,192.6,15,3.8,6,99
+388,Sonny Rollins,The Everywhere Calypso,6,2,8,192.6,6,0.5,4,100
+388,Sonny Rollins,The Everywhere Calypso,7,3,30,192.6,36,11.9,9,101
+388,Sonny Rollins,The Everywhere Calypso,8,3,23,192.6,28,8.6,8,102
+388,Sonny Rollins,The Everywhere Calypso,9,4,22,192.6,21,5.8,7,103
+388,Sonny Rollins,The Everywhere Calypso,10,4,7,192.6,15,4.3,6,104
+388,Sonny Rollins,The Everywhere Calypso,11,5,29,192.6,28,8.6,8,105
+388,Sonny Rollins,The Everywhere Calypso,12,5,36,192.6,28,8.6,8,106
+388,Sonny Rollins,The Everywhere Calypso,13,6,31,192.6,28,8.6,8,107
+388,Sonny Rollins,The Everywhere Calypso,14,7,8,192.6,3,1.0,3,108
+388,Sonny Rollins,The Everywhere Calypso,15,7,9,192.6,6,2.0,4,109
+388,Sonny Rollins,The Everywhere Calypso,16,7,9,192.6,6,2.3,4,110
+388,Sonny Rollins,The Everywhere Calypso,17,8,47,192.6,45,15.2,10,111
+388,Sonny Rollins,The Everywhere Calypso,18,9,41,192.6,36,11.4,9,112
+388,Sonny Rollins,The Everywhere Calypso,19,10,56,192.6,28,8.6,8,113
+388,Sonny Rollins,The Everywhere Calypso,20,10,59,192.6,36,11.9,9,114
+388,Sonny Rollins,The Everywhere Calypso,21,11,54,192.6,36,12.4,9,115
+388,Sonny Rollins,The Everywhere Calypso,22,12,43,192.6,45,15.2,10,116
+389,Sonny Rollins,The Everywhere Calypso,1,-1,32,197.2,28,8.6,8,117
+389,Sonny Rollins,The Everywhere Calypso,2,1,14,197.2,21,5.3,7,118
+389,Sonny Rollins,The Everywhere Calypso,3,1,19,197.2,15,3.8,6,119
+389,Sonny Rollins,The Everywhere Calypso,4,2,31,197.2,28,8.6,8,120
+389,Sonny Rollins,The Everywhere Calypso,5,3,41,197.2,45,15.2,10,121
+389,Sonny Rollins,The Everywhere Calypso,6,3,7,197.2,6,0.5,4,122
+389,Sonny Rollins,The Everywhere Calypso,7,4,39,197.2,36,11.9,9,123
+389,Sonny Rollins,The Everywhere Calypso,8,5,31,197.2,36,11.9,9,124
+389,Sonny Rollins,The Everywhere Calypso,9,5,36,197.2,36,13.2,9,125
+389,Sonny Rollins,The Everywhere Calypso,10,6,55,197.2,45,15.7,10,126
+389,Sonny Rollins,The Everywhere Calypso,11,7,33,197.2,21,5.3,7,127
+389,Sonny Rollins,The Everywhere Calypso,12,8,43,197.2,36,12.4,9,128
+389,Sonny Rollins,The Everywhere Calypso,13,9,11,197.2,15,4.3,6,129
+389,Sonny Rollins,The Everywhere Calypso,14,9,22,197.2,45,15.7,10,130
+389,Sonny Rollins,The Everywhere Calypso,15,10,10,197.2,10,4.5,5,131
+389,Sonny Rollins,The Everywhere Calypso,16,10,8,197.2,10,4.0,5,132
+389,Sonny Rollins,The Everywhere Calypso,17,10,27,197.2,21,5.3,7,133
+389,Sonny Rollins,The Everywhere Calypso,18,11,26,197.2,36,11.9,9,134
+389,Sonny Rollins,The Everywhere Calypso,19,11,15,197.2,28,8.6,8,135
+389,Sonny Rollins,The Everywhere Calypso,20,12,58,197.2,45,15.2,10,136
+389,Sonny Rollins,The Everywhere Calypso,21,13,51,197.2,36,11.9,9,137
+389,Sonny Rollins,The Everywhere Calypso,22,13,36,197.2,45,15.7,10,138
+389,Sonny Rollins,The Everywhere Calypso,23,14,28,197.2,36,13.2,9,139
+389,Sonny Rollins,The Everywhere Calypso,24,15,60,197.2,66,22.8,12,140
+389,Sonny Rollins,The Everywhere Calypso,25,16,76,197.2,55,19.0,11,141
+389,Sonny Rollins,The Everywhere Calypso,26,17,8,197.2,21,5.3,7,142
+389,Sonny Rollins,The Everywhere Calypso,27,17,7,197.2,3,0.5,3,143
+389,Sonny Rollins,The Everywhere Calypso,28,18,13,197.2,10,2.0,5,144
+389,Sonny Rollins,The Everywhere Calypso,29,18,13,197.2,21,8.6,7,145
+389,Sonny Rollins,The Everywhere Calypso,30,18,74,197.2,66,22.8,12,146
+389,Sonny Rollins,The Everywhere Calypso,31,19,21,197.2,36,11.9,9,147
+389,Sonny Rollins,The Everywhere Calypso,32,19,4,197.2,0,0.0,1,148
+390,Sonny Rollins,Vierd Blues,1,1,3,114.4,3,0.5,3,149
+390,Sonny Rollins,Vierd Blues,2,1,4,114.4,6,2.0,4,150
+390,Sonny Rollins,Vierd Blues,3,1,16,114.4,21,6.3,7,151
+390,Sonny Rollins,Vierd Blues,4,1,3,114.4,3,0.5,3,152
+390,Sonny Rollins,Vierd Blues,5,1,7,114.4,6,1.8,4,153
+390,Sonny Rollins,Vierd Blues,6,2,7,114.4,3,0.0,3,154
+390,Sonny Rollins,Vierd Blues,7,2,18,114.4,28,8.6,8,155
+390,Sonny Rollins,Vierd Blues,8,2,6,114.4,6,2.5,4,156
+390,Sonny Rollins,Vierd Blues,9,2,12,114.4,21,7.6,7,157
+390,Sonny Rollins,Vierd Blues,10,2,3,114.4,3,1.0,3,158
+390,Sonny Rollins,Vierd Blues,11,3,4,114.4,3,1.5,3,159
+390,Sonny Rollins,Vierd Blues,12,3,2,114.4,1,1.0,2,160
+390,Sonny Rollins,Vierd Blues,13,3,11,114.4,21,7.1,7,161
+390,Sonny Rollins,Vierd Blues,14,3,8,114.4,6,1.8,4,162
+390,Sonny Rollins,Vierd Blues,15,3,14,114.4,36,13.2,9,163
+390,Sonny Rollins,Vierd Blues,16,3,7,114.4,15,5.6,6,164
+390,Sonny Rollins,Vierd Blues,17,3,5,114.4,3,1.5,3,165
+390,Sonny Rollins,Vierd Blues,18,4,7,114.4,15,4.3,6,166
+390,Sonny Rollins,Vierd Blues,19,4,28,114.4,45,15.2,10,167
+390,Sonny Rollins,Vierd Blues,20,4,36,114.4,36,12.4,9,168
+390,Sonny Rollins,Vierd Blues,21,4,36,114.4,36,12.4,9,169
+390,Sonny Rollins,Vierd Blues,22,4,21,114.4,45,15.7,10,170
+390,Sonny Rollins,Vierd Blues,23,5,8,114.4,15,3.8,6,171
+390,Sonny Rollins,Vierd Blues,24,5,5,114.4,6,1.0,4,172
+390,Sonny Rollins,Vierd Blues,25,5,5,114.4,6,1.0,4,173
+390,Sonny Rollins,Vierd Blues,26,5,6,114.4,10,2.0,5,174
+390,Sonny Rollins,Vierd Blues,27,5,77,114.4,66,22.8,12,175
+390,Sonny Rollins,Vierd Blues,28,5,7,114.4,10,3.8,5,176
+390,Sonny Rollins,Vierd Blues,29,6,13,114.4,21,5.3,7,177
+390,Sonny Rollins,Vierd Blues,30,6,5,114.4,3,0.0,3,178
+390,Sonny Rollins,Vierd Blues,31,6,9,114.4,6,1.0,4,179
+390,Sonny Rollins,Vierd Blues,32,6,24,114.4,45,15.2,10,180
+390,Sonny Rollins,Vierd Blues,33,6,4,114.4,3,1.5,3,181
+390,Sonny Rollins,Vierd Blues,34,6,6,114.4,10,3.0,5,182
+390,Sonny Rollins,Vierd Blues,35,6,5,114.4,3,1.0,3,183
+407,Steve Coleman,Processional,1,1,5,103.9,3,0.5,3,0
+407,Steve Coleman,Processional,2,1,15,103.9,15,3.8,6,1
+407,Steve Coleman,Processional,3,1,45,103.9,36,11.9,9,2
+407,Steve Coleman,Processional,4,1,8,103.9,15,5.6,6,3
+407,Steve Coleman,Processional,5,1,44,103.9,55,19.0,11,4
+407,Steve Coleman,Processional,6,1,10,103.9,15,5.6,6,5
+407,Steve Coleman,Processional,7,2,27,103.9,36,13.9,9,6
+407,Steve Coleman,Processional,8,2,29,103.9,21,6.1,7,7
+407,Steve Coleman,Processional,9,2,32,103.9,45,15.2,10,8
+407,Steve Coleman,Processional,10,2,21,103.9,45,15.2,10,9
+407,Steve Coleman,Processional,11,2,59,103.9,66,22.8,12,10
+407,Steve Coleman,Processional,12,3,6,103.9,10,2.5,5,11
+407,Steve Coleman,Processional,13,3,5,103.9,6,3.0,4,12
+407,Steve Coleman,Processional,14,3,29,103.9,28,8.6,8,13
+407,Steve Coleman,Processional,15,3,17,103.9,55,19.0,11,14
+407,Steve Coleman,Processional,16,3,40,103.9,55,19.0,11,15
+407,Steve Coleman,Processional,17,3,6,103.9,10,1.5,5,16
+407,Steve Coleman,Processional,18,3,41,103.9,55,19.0,11,17
+407,Steve Coleman,Processional,19,3,38,103.9,55,19.0,11,18
+409,Steve Coleman,Slipped again,1,1,12,131.6,15,3.8,6,19
+409,Steve Coleman,Slipped again,2,1,15,131.6,15,3.0,6,20
+409,Steve Coleman,Slipped again,3,1,12,131.6,10,4.5,5,21
+409,Steve Coleman,Slipped again,4,1,20,131.6,21,6.1,7,22
+409,Steve Coleman,Slipped again,5,1,9,131.6,10,2.3,5,23
+409,Steve Coleman,Slipped again,6,2,9,131.6,21,7.6,7,24
+409,Steve Coleman,Slipped again,7,2,33,131.6,66,22.8,12,25
+409,Steve Coleman,Slipped again,8,2,37,131.6,66,22.8,12,26
+409,Steve Coleman,Slipped again,9,2,7,131.6,10,2.3,5,27
+409,Steve Coleman,Slipped again,10,3,16,131.6,55,19.0,11,28
+409,Steve Coleman,Slipped again,11,3,7,131.6,15,4.6,6,29
+409,Steve Coleman,Slipped again,12,3,36,131.6,66,22.8,12,30
+409,Steve Coleman,Slipped again,13,3,26,131.6,55,19.0,11,31
+409,Steve Coleman,Slipped again,14,3,3,131.6,3,1.0,3,32
+409,Steve Coleman,Slipped again,15,3,20,131.6,45,15.2,10,33
+410,Steve Coleman,Take the Coltrane,1,1,25,240.0,28,8.6,8,34
+410,Steve Coleman,Take the Coltrane,2,1,17,240.0,21,5.3,7,35
+410,Steve Coleman,Take the Coltrane,3,1,6,240.0,10,3.3,5,36
+410,Steve Coleman,Take the Coltrane,4,2,8,240.0,15,3.8,6,37
+410,Steve Coleman,Take the Coltrane,5,2,7,240.0,10,3.3,5,38
+410,Steve Coleman,Take the Coltrane,6,2,12,240.0,28,9.6,8,39
+410,Steve Coleman,Take the Coltrane,7,2,11,240.0,36,11.9,9,40
+410,Steve Coleman,Take the Coltrane,8,2,43,240.0,36,13.9,9,41
+410,Steve Coleman,Take the Coltrane,9,3,14,240.0,28,9.6,8,42
+410,Steve Coleman,Take the Coltrane,10,3,9,240.0,21,7.1,7,43
+410,Steve Coleman,Take the Coltrane,11,3,36,240.0,55,19.0,11,44
+410,Steve Coleman,Take the Coltrane,12,4,7,240.0,15,6.8,6,45
+410,Steve Coleman,Take the Coltrane,13,4,12,240.0,28,9.1,8,46
+410,Steve Coleman,Take the Coltrane,14,4,11,240.0,36,11.4,9,47
+410,Steve Coleman,Take the Coltrane,15,4,13,240.0,28,10.9,8,48
+410,Steve Coleman,Take the Coltrane,16,4,10,240.0,21,7.9,7,49
+410,Steve Coleman,Take the Coltrane,17,4,10,240.0,21,8.6,7,50
+410,Steve Coleman,Take the Coltrane,18,5,4,240.0,3,2.5,3,51
+410,Steve Coleman,Take the Coltrane,19,5,4,240.0,6,1.5,4,52
+410,Steve Coleman,Take the Coltrane,20,5,26,240.0,55,19.0,11,53
+410,Steve Coleman,Take the Coltrane,21,5,16,240.0,36,12.2,9,54
+410,Steve Coleman,Take the Coltrane,22,5,12,240.0,28,9.4,8,55
+410,Steve Coleman,Take the Coltrane,23,5,5,240.0,10,2.3,5,56
+410,Steve Coleman,Take the Coltrane,24,6,16,240.0,36,13.9,9,57
+410,Steve Coleman,Take the Coltrane,25,6,15,240.0,28,8.6,8,58
+410,Steve Coleman,Take the Coltrane,26,6,9,240.0,21,9.3,7,59
+410,Steve Coleman,Take the Coltrane,27,6,21,240.0,36,11.9,9,60
+410,Steve Coleman,Take the Coltrane,28,7,16,240.0,28,9.9,8,61
+410,Steve Coleman,Take the Coltrane,29,7,18,240.0,36,12.4,9,62
+410,Steve Coleman,Take the Coltrane,30,7,20,240.0,45,15.2,10,63
+410,Steve Coleman,Take the Coltrane,31,7,17,240.0,15,4.3,6,64
+410,Steve Coleman,Take the Coltrane,32,8,15,240.0,28,8.6,8,65
+410,Steve Coleman,Take the Coltrane,33,8,8,240.0,15,4.3,6,66
+410,Steve Coleman,Take the Coltrane,34,8,28,240.0,55,19.0,11,67
+410,Steve Coleman,Take the Coltrane,35,8,16,240.0,36,11.4,9,68
+410,Steve Coleman,Take the Coltrane,36,8,9,240.0,28,8.6,8,69
+410,Steve Coleman,Take the Coltrane,37,8,1,240.0,0,0.0,1,70
+410,Steve Coleman,Take the Coltrane,38,8,2,240.0,1,0.5,2,71
+410,Steve Coleman,Take the Coltrane,39,9,31,240.0,66,22.8,12,72
+410,Steve Coleman,Take the Coltrane,40,9,53,240.0,66,22.8,12,73
+410,Steve Coleman,Take the Coltrane,41,10,14,240.0,28,8.1,8,74
+410,Steve Coleman,Take the Coltrane,42,10,44,240.0,66,22.8,12,75
+410,Steve Coleman,Take the Coltrane,43,10,16,240.0,45,15.7,10,76
+410,Steve Coleman,Take the Coltrane,44,11,40,240.0,55,19.0,11,77
+410,Steve Coleman,Take the Coltrane,45,11,27,240.0,66,22.8,12,78
+410,Steve Coleman,Take the Coltrane,46,12,47,240.0,66,22.8,12,79
+410,Steve Coleman,Take the Coltrane,47,12,15,240.0,55,19.0,11,80
+410,Steve Coleman,Take the Coltrane,48,12,50,240.0,55,19.0,11,81
+410,Steve Coleman,Take the Coltrane,49,13,39,240.0,66,22.8,12,82
+410,Steve Coleman,Take the Coltrane,50,13,16,240.0,55,19.0,11,83
+410,Steve Coleman,Take the Coltrane,51,14,32,240.0,66,22.8,12,84
+410,Steve Coleman,Take the Coltrane,52,14,8,240.0,21,5.8,7,85
+410,Steve Coleman,Take the Coltrane,53,14,3,240.0,3,2.5,3,86
+410,Steve Coleman,Take the Coltrane,54,14,27,240.0,55,19.0,11,87
+410,Steve Coleman,Take the Coltrane,55,15,13,240.0,15,3.8,6,88
+428,Wayne Shorter,Down Under,1,-1,13,147.1,15,3.8,6,0
+428,Wayne Shorter,Down Under,2,-1,28,147.1,45,15.2,10,1
+428,Wayne Shorter,Down Under,3,1,15,147.1,21,5.3,7,2
+428,Wayne Shorter,Down Under,4,1,15,147.1,36,12.4,9,3
+428,Wayne Shorter,Down Under,5,1,27,147.1,36,11.9,9,4
+428,Wayne Shorter,Down Under,6,1,22,147.1,45,16.2,10,5
+428,Wayne Shorter,Down Under,7,1,52,147.1,66,22.8,12,6
+428,Wayne Shorter,Down Under,8,1,7,147.1,15,7.0,6,7
+428,Wayne Shorter,Down Under,9,2,6,147.1,6,1.0,4,8
+428,Wayne Shorter,Down Under,10,2,23,147.1,36,11.9,9,9
+428,Wayne Shorter,Down Under,11,2,19,147.1,45,15.2,10,10
+428,Wayne Shorter,Down Under,12,2,24,147.1,66,22.8,12,11
+428,Wayne Shorter,Down Under,13,2,9,147.1,36,12.9,9,12
+428,Wayne Shorter,Down Under,14,2,13,147.1,21,6.8,7,13
+430,Wayne Shorter,Eighty-One,1,1,5,138.4,3,0.5,3,14
+430,Wayne Shorter,Eighty-One,2,1,14,138.4,3,0.5,3,15
+430,Wayne Shorter,Eighty-One,3,1,12,138.4,10,1.5,5,16
+430,Wayne Shorter,Eighty-One,4,1,4,138.4,1,0.5,2,17
+430,Wayne Shorter,Eighty-One,5,1,5,138.4,10,3.3,5,18
+430,Wayne Shorter,Eighty-One,6,1,14,138.4,15,3.8,6,19
+430,Wayne Shorter,Eighty-One,7,1,4,138.4,3,1.5,3,20
+430,Wayne Shorter,Eighty-One,8,2,18,138.4,36,11.4,9,21
+430,Wayne Shorter,Eighty-One,9,2,5,138.4,10,3.3,5,22
+430,Wayne Shorter,Eighty-One,10,2,25,138.4,45,15.7,10,23
+430,Wayne Shorter,Eighty-One,11,2,42,138.4,45,15.7,10,24
+430,Wayne Shorter,Eighty-One,12,3,8,138.4,15,4.3,6,25
+430,Wayne Shorter,Eighty-One,13,3,11,138.4,36,11.9,9,26
+430,Wayne Shorter,Eighty-One,14,3,7,138.4,15,5.8,6,27
+430,Wayne Shorter,Eighty-One,15,3,19,138.4,28,8.6,8,28
+430,Wayne Shorter,Eighty-One,16,3,3,138.4,3,1.5,3,29
+430,Wayne Shorter,Eighty-One,17,3,12,138.4,28,9.1,8,30
+430,Wayne Shorter,Eighty-One,18,3,8,138.4,10,5.1,5,31
+430,Wayne Shorter,Eighty-One,19,3,18,138.4,15,6.6,6,32
+430,Wayne Shorter,Eighty-One,20,4,5,138.4,6,3.3,4,33
+430,Wayne Shorter,Eighty-One,21,4,23,138.4,28,9.9,8,34
+430,Wayne Shorter,Eighty-One,22,4,7,138.4,15,5.0,6,35
+430,Wayne Shorter,Eighty-One,23,4,19,138.4,36,11.9,9,36
+430,Wayne Shorter,Eighty-One,24,4,23,138.4,45,15.2,10,37
+430,Wayne Shorter,Eighty-One,25,4,9,138.4,21,5.8,7,38
+430,Wayne Shorter,Eighty-One,26,5,13,138.4,21,6.3,7,39
+430,Wayne Shorter,Eighty-One,27,5,15,138.4,28,8.6,8,40
+430,Wayne Shorter,Eighty-One,28,5,7,138.4,6,2.3,4,41
+430,Wayne Shorter,Eighty-One,29,5,10,138.4,15,4.0,6,42
+430,Wayne Shorter,Eighty-One,30,5,10,138.4,21,5.3,7,43
+431,Wayne Shorter,Footprints,1,1,15,136.1,21,5.3,7,44
+431,Wayne Shorter,Footprints,2,1,3,136.1,1,0.0,2,45
+431,Wayne Shorter,Footprints,3,1,9,136.1,6,2.3,4,46
+431,Wayne Shorter,Footprints,4,1,17,136.1,21,5.3,7,47
+431,Wayne Shorter,Footprints,5,1,16,136.1,28,8.6,8,48
+431,Wayne Shorter,Footprints,6,1,5,136.1,3,0.5,3,49
+431,Wayne Shorter,Footprints,7,1,10,136.1,15,4.3,6,50
+431,Wayne Shorter,Footprints,8,1,10,136.1,15,3.0,6,51
+431,Wayne Shorter,Footprints,9,2,8,136.1,10,3.8,5,52
+431,Wayne Shorter,Footprints,10,2,8,136.1,10,2.5,5,53
+431,Wayne Shorter,Footprints,11,2,16,136.1,21,5.3,7,54
+431,Wayne Shorter,Footprints,12,2,11,136.1,21,5.3,7,55
+431,Wayne Shorter,Footprints,13,2,29,136.1,21,7.6,7,56
+431,Wayne Shorter,Footprints,14,2,5,136.1,6,2.5,4,57
+431,Wayne Shorter,Footprints,15,2,20,136.1,55,19.0,11,58
+431,Wayne Shorter,Footprints,16,2,3,136.1,3,0.5,3,59
+431,Wayne Shorter,Footprints,17,2,3,136.1,3,0.5,3,60
+431,Wayne Shorter,Footprints,18,2,9,136.1,3,0.5,3,61
+431,Wayne Shorter,Footprints,19,2,3,136.1,3,0.5,3,62
+431,Wayne Shorter,Footprints,20,2,9,136.1,3,0.5,3,63
+431,Wayne Shorter,Footprints,21,3,10,136.1,6,1.0,4,64
+431,Wayne Shorter,Footprints,22,3,7,136.1,6,2.0,4,65
+431,Wayne Shorter,Footprints,23,3,3,136.1,3,0.5,3,66
+431,Wayne Shorter,Footprints,24,3,3,136.1,3,0.5,3,67
+431,Wayne Shorter,Footprints,25,3,3,136.1,3,0.5,3,68
+431,Wayne Shorter,Footprints,26,3,5,136.1,10,1.5,5,69
+431,Wayne Shorter,Footprints,27,3,24,136.1,21,5.3,7,70
+431,Wayne Shorter,Footprints,28,3,14,136.1,21,5.3,7,71
+431,Wayne Shorter,Footprints,29,3,7,136.1,15,4.6,6,72
+431,Wayne Shorter,Footprints,30,3,8,136.1,10,3.8,5,73
+431,Wayne Shorter,Footprints,31,3,19,136.1,15,5.3,6,74
+431,Wayne Shorter,Footprints,32,3,4,136.1,3,0.5,3,75
+431,Wayne Shorter,Footprints,33,4,4,136.1,3,1.0,3,76
+431,Wayne Shorter,Footprints,34,4,4,136.1,3,0.0,3,77
+431,Wayne Shorter,Footprints,35,4,8,136.1,10,1.5,5,78
+431,Wayne Shorter,Footprints,36,4,12,136.1,10,1.5,5,79
+431,Wayne Shorter,Footprints,37,4,29,136.1,55,19.0,11,80
+431,Wayne Shorter,Footprints,38,4,4,136.1,6,0.5,4,81
+431,Wayne Shorter,Footprints,39,4,5,136.1,6,0.5,4,82
+431,Wayne Shorter,Footprints,40,4,9,136.1,10,4.0,5,83
+431,Wayne Shorter,Footprints,41,4,3,136.1,3,1.5,3,84
+431,Wayne Shorter,Footprints,42,4,6,136.1,15,3.0,6,85
+431,Wayne Shorter,Footprints,43,4,8,136.1,15,5.1,6,86
+431,Wayne Shorter,Footprints,44,4,21,136.1,28,8.1,8,87
+431,Wayne Shorter,Footprints,45,4,5,136.1,6,2.0,4,88
+431,Wayne Shorter,Footprints,46,4,6,136.1,6,2.0,4,89

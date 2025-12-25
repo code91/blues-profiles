@@ -1,0 +1,55 @@
+melid,performer,title,composer,instrument,style,key,avgtempo,tempoclass,rhythmfeel,chorus_count,signature,chord_changes,form,tonalitytype
+38,Branford Marsalis,Gutbucket Steepy,"Hinton, B.Marsalis, Watts",ts,POSTBOP,Db-maj,70.1,SLOW,SWING,5,4/4,A1: ||Db7   |Gb7   |Db7   |Db7   |Gb7   |Gb7   |Db7 C7 |F-7 Bb7 |Eb-7   |Ab7   |Db7   |Eb-7 Ab7 ||,A12,BLUES
+39,Branford Marsalis,Housed from Edward,B. Marsalis,ts,POSTBOP,F-maj,126.6,MEDIUM,SWING,10,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |A-7 D7 |G-7   |C7   |F7 D7 |G-7 C7 ||,A12,BLUES
+40,Branford Marsalis,Housed from Edward,B. Marsalis,ts,POSTBOP,F-maj,121.9,MEDIUM,SWING,2,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |A-7 D7 |G-7   |C7   |F7 D7 |G-7 C7 ||,A12,BLUES
+52,Charlie Parker,Billie's Bounce,Charlie Parker,as,BEBOP,F-maj,158.5,MEDIUM UP,SWING,4,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |A-7 D7 |G-   |C7   |F7   |C7   ||,A12,BLUES
+53,Charlie Parker,Blues for Alice,Charlie Parker,as,BEBOP,F-maj,168.9,MEDIUM UP,SWING,3,4/4,A1: ||Fj7   |Em7b5 A79b |D-7 G7 |C-7 F7 |Bb7   |Bb-7 Eb7 |A-7 D7 |Ab-7 Db7 |G-7   |C7   |Fj7 D-7 |G-7 C7 ||,A12,BLUES
+58,Charlie Parker,K.C. Blues,Parker,as,BEBOP,C-maj,118.3,MEDIUM,SWING,2,4/4,A1: ||C7   |F7   |C7   |C7   |F7   |F7   |C7   |E-7 A7 |D-7   |G7   |C7 A7 |D-7 G7 ||,A12,BLUES
+141,Don Byas,Cognac Blues,Dizzy Gillespie,ts,SWING,F-maj,115.9,MEDIUM,SWING,2,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |F7   |G-7   |C7   |F7 D-7 |G-7 C7 ||,A12,BLUES
+142,Don Byas,Harvard Blues,"Frazier, Smith, Basie)",ts,SWING,Db-maj,98.5,MEDIUM SLOW,SWING,1,4/4,"A1: ||Db7   |Gb7 Go |Db Db7 |Bb-7 Db7 |Gb7   |Gb7 Go |Db7   |Db7 Ao |Ab7   |Gb7   |Db7   |Db7   ||
+I1: ||NC   ||",A12,BLUES
+143,Don Byas,Harvard Blues,"Frazier, Smith, Basie)",ts,SWING,Db-maj,99.3,MEDIUM SLOW,SWING,1,4/4,"A1: ||Db7   |Gb7 Go |Db7   |Db7   |Gb7   |Gb7 Go |Db7   |Bb- Eb7 |Ab7   |Gb7   |Db7   |Db7   ||
+I1: ||NC   ||",A12,BLUES
+153,Eric Dolphy,245,Eric Dolphy,as,POSTBOP,F-maj,71.2,SLOW,SWING,3,4/4,A1: ||F7   |Bb7   |F7   |F#-7 B7 |Bb7   |Bo   |E79# A7913b |A-7 Ab-7 |G-7   |Db-7 F#7 |B+7   |B+7   ||,A12,BLUES
+155,Eric Dolphy,Dahomey Dance,John Coltrane,as,POSTBOP,G-maj,128.9,MEDIUM,SWING,6,4/4,A1: ||G7   |G7   |G7   |G7913   |F7   |F7   |G7   |G7913   |Dsus7   |D7   |G7   |G7913   ||,A12,BLUES
+158,Eric Dolphy,Serene,Eric Dolphy,bcl,POSTBOP,Eb-maj,75.2,SLOW,SWING,3,4/4,A1: ||Ebj7   |Ab7911#   |Db7   |Eb7   |Ab7   |D7alt   |Ebj7   |Db-7 Gb7 |Fm7b5   |Bb7alt B-7E7|Ab7911#   |Ab7911#   ||,A12,BLUES
+165,Freddie Hubbard,245,Eric Dolphy,tp,POSTBOP,F-maj,73.0,SLOW,SWING,3,4/4,A1: ||F7   |Bb7   |F7   |F#- B7 |Bb7   |Bo   |E79# Ab7913b |A-7 Ab-7 |G-7   |C#- F#7 |B+7   |B+7   ||,A12,BLUES
+167,Freddie Hubbard,Down Under,Freddie Hubbard,tp,HARDBOP,F#-min,146.1,MEDIUM UP,SWING,2,4/4,A1: ||Gb-7   |Abm7b5 Db7 |Gb-7   |Gb-7   |G7   |G7   |Gb-7   |E-7 A7 |D7   |Db7   |Gb-7   |Db7   ||,A12,BLUES
+169,Freddie Hubbard,Society Red,Dexter Gordon,tp,HARDBOP,F-maj,113.6,MEDIUM,SWING,6,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |D79b   |G-7   |C7   |A-7 D-7 |Gm7b5 C7 ||,A12,BLUES
+190,J.J. Johnson,Blue Mode,J.J. Johnson,tb,BEBOP,Bb-maj,64.1,SLOW,SWING,1,4/4,"A1: ||Bb7   |Eb7 Em7b5 |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C-7   |F7   |Bb7 F7 |Bb7G7C-7F7||
+B1: ||Bb7   |A-7 D7 |G-7   |F-7 Bb7 |Eb7   |Eb7   |Eb-7 D7 |Db7 G7 |C-7   |C7 F7 |Bb7 G7 |C-7 F7 ||
+I1: ||Bb7   ||",A12,BLUES
+191,J.J. Johnson,Blues in the Closet,Pettiford,tb,BEBOP,Bb-blues,234.4,UP,SWING,16,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |G7   |C-7   |F7   |Bb7   |F7   ||,A12,BLUES
+196,J.J. Johnson,Walkin',Miles Davis/Richard Carpenter,tb,HARDBOP,F-maj,127.9,MEDIUM,SWING,7,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |F7   |G-7   |C7   |F7   |G-7 C7 ||,A12,BLUES
+216,John Coltrane,Bessie's Blues,John Coltrane,ts,POSTBOP,Eb-maj,184.3,UP,SWING,5,4/4,A1: ||Eb7   |Ab7   |Eb7   |Eb7   |Ab7   |Ab7   |Eb7   |Eb7   |Bb7   |Ab7   |Eb7   |Eb7   ||,A12,BLUES
+218,John Coltrane,Blue Train,John Coltrane,ts,HARDBOP,Eb-maj,141.4,MEDIUM UP,SWING,8,4/4,A1: ||Eb7   |Ab7   |Eb7   |Eb7   |Ab7   |Ab7   |Eb7   |C7   |F-7   |Bb7   |Eb7   |Eb7   ||,A12,BLUES
+217,John Coltrane,Blues by Five,Red Garland,ts,HARDBOP,Bb-maj,176.5,MEDIUM UP,SWING,7,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |Bb7   |C-7   |F7   |Bb7   |F7   ||,A12,BLUES
+226,John Coltrane,Mr. P.C.,Coltrane,ts,HARDBOP,C-min,258.2,UP,SWING,16,4/4,A1: ||C-7   |C-7   |C-7   |C-7   |F-7   |F-7   |C-7   |C-7   |Ab7   |G7   |C-7   |C-7   ||,A12,BLUES
+234,John Coltrane,Trane's Blues,John Coltrane,ts,HARDBOP,Bb-maj,164.9,MEDIUM UP,SWING,7,4/4,A1: ||Bb7NC  |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C-7   |F7   |Bb7   |C-7 F7 ||,A12,BLUES
+249,Kenny Dorham,Blues in Be-Bop,McKinley/Dorham,tp,BEBOP,Eb-maj,186.7,UP,SWING,2,4/4,A1: ||Eb7   |Eb7   |Eb7   |Eb7   |Ab7   |Ab7   |Eb7   |Eb7   |Bb7   |Ab7   |Eb7   |Eb7   ||,A12,BLUES
+250,Kenny Dorham,Doodlin',H.Silver,tp,HARDBOP,Db-maj,121.1,MEDIUM,SWING,3,4/4,A1: ||Db7   |Gb7   |Db7   |Db7   |Gb7   |Gb7   |Db7   |Db7 Bb7 |Eb-7   |Ab79   |Db7   |Ab7   ||,A12,BLUES
+251,Kenny Dorham,In 'n Out,Joe Henderson,tp,POSTBOP,Eb-maj,294.0,UP,SWING,12,4/4,A1: ||Fsus7913NC  |NC   |NC   |Gbsus7913   |Fsus7913   |Fsus7913   |F7 Eb7 |D79   |Ebj7911#   |Ebj7911#   |Ebj7911#   |Ebj7911#   ||,A12,BLUES
+291,Louis Armstrong,Basin Street Blues,Williams,tp,TRADITIONAL,Bb-maj,107.2,MEDIUM SLOW,TWOBEAT,3,4/4,A1: ||Bb   |D7   |G7   |G7   |C7   |F7   |Bb Bbo |C-7 F7 ||,A12,BLUES
+295,Louis Armstrong,Gut Bucket Blues,Louis Armstrong,cor,TRADITIONAL,C-maj,146.0,MEDIUM UP,TWOBEAT,1,4/4,A1: ||C7   |F7   |C7   |C7   |F7   |F7   |C7   |C7   |G7   |F7   |C7   |G7   ||,A12,BLUES
+298,Louis Armstrong,Savoy Blues,Edward Ory,cor,TRADITIONAL,G-maj,129.3,MEDIUM,TWOBEAT,2,4/4,A1: ||G   |C C#o |G/D   |G7   |C   |C   |G   |G   |D7   |D7   |G C7 |G D7 ||,A12,BLUES
+313,Miles Davis,Blues by Five,Red Garland,tp,HARDBOP,Bb-maj,177.9,MEDIUM UP,SWING,8,4/4,A1: ||Bb7   |Eb7   |Bb7   |F-7 Bb7 |Eb7   |Eb7   |Bb7   |G7   |C-7   |F7   |Bb7   |F7   ||,A12,BLUES
+316,Miles Davis,Eighty-One,Carter/Davis,tp,POSTBOP,F-maj,138.3,MEDIUM,SWING,6,4/4,A1: ||Fsus7   |Bbsus7   |Fsus7   |Fsus7   |Bbsus7   |Bbsus7   |Fsus7   |Fsus7   |Csus7   |Bbsus7   |Fsus7   |Fsus7   ||,A12,BLUES
+317,Miles Davis,K.C. Blues,Parker,tp,BEBOP,C-maj,120.1,MEDIUM,SWING,2,4/4,A1: ||C7   |F7   |C7   |C7   |F7   |F7   |C7   |E-7 A7 |D-7   |G7   |C7   |D-7 G7 ||,A12,BLUES
+324,Miles Davis,Trane's Blues,John Coltrane,tp,HARDBOP,Bb-maj,164.0,MEDIUM UP,SWING,5,4/4,"A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C-7   |F7   |Bb7   |C-7 F7 ||
+A2: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C-7   |F7   |Bb7   |C-7 F7 ||",A12,BLUES
+326,Miles Davis,Vierd Blues,,tp,HARDBOP,Bb-maj,114.7,MEDIUM,SWING,3,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |G79b   |C-   |F7   |Bb7 G79b |C-7 F7 ||,A12,BLUES
+327,Miles Davis,Walkin',Miles Davis/Richard Carpenter,tp,HARDBOP,F-maj,127.7,MEDIUM,SWING,7,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |A-7 D7 |G-7   |C7   |F7   |G-7 C7 ||,A12,BLUES
+379,Sonny Rollins,Blue Seven,Sonny Rollins,ts,HARDBOP,Bb-maj,134.6,MEDIUM,SWING,5,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |Bb7   |F7   |Eb7   |Bb7   |F7   ||,A12,BLUES
+380,Sonny Rollins,Blue Seven,Sonny Rollins,ts,HARDBOP,Bb-maj,137.6,MEDIUM,SWING,2,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |Bb7   |C-7   |F7   |Bb7   |Bb7   ||,A12,BLUES
+381,Sonny Rollins,Blue Seven,Sonny Rollins,ts,HARDBOP,Bb-maj,133.3,MEDIUM,SWING,2,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C-7   |F7   |Bb7   |F7   ||,A12,BLUES
+387,Sonny Rollins,Tenor Madness,Sonny Rollins,ts,HARDBOP,Bb-maj,175.6,MEDIUM UP,SWING,8,4/4,A1: ||Bb7   |Bb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |Bb7   |C-7   |F7   |Bb7   |Bb7   ||,A12,BLUES
+388,Sonny Rollins,The Everywhere Calypso,,ts,POSTBOP,C-maj,192.6,UP,LATIN,13,4/4,A1: ||C   |F   |G7   |C   |A7   |D-7   |G7   |C   ||,A12,FUNCTIONAL
+389,Sonny Rollins,The Everywhere Calypso,,ts,POSTBOP,C-maj,197.2,UP,LATIN,19,4/4,A1: ||C   |F   |G7   |C   |A7   |D-7   |G7   |C   ||,A12,FUNCTIONAL
+390,Sonny Rollins,Vierd Blues,,ts,HARDBOP,Bb-maj,114.4,MEDIUM,SWING,6,4/4,A1: ||Bb7   |Eb7   |Bb7   |Bb7   |Eb7   |Eb7   |Bb7   |D-7 G7 |C7   |F7   |Bb7   |F7   ||,A12,BLUES
+407,Steve Coleman,Processional,Dave Holland,as,POSTBOP,F-min,103.9,MEDIUM SLOW,LATIN,3,5/4,A1: ||F-    |F-    |F-    |F-    |Db7911#    |Db7911#    |F-    |F-    |Gb7911#    |E7911#    |D7911#    |C7alt    ||,A12,COLOR
+409,Steve Coleman,Slipped again,Thad Jones,as,POSTBOP,F-maj,131.6,MEDIUM,SWING,3,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |A-7 D7 |G-7   |C7   |F7   |G-7 C7 ||,A12,BLUES
+410,Steve Coleman,Take the Coltrane,Duke Ellington,as,POSTBOP,F-maj,240.0,UP,SWING,14,4/4,A1: ||F7   |Bb7   |F7   |F7   |Bb7   |Bb7   |F7   |F7   |G7   |C7   |F7   |C7   ||,A12,BLUES
+428,Wayne Shorter,Down Under,Freddie Hubbard,ts,HARDBOP,F#-min,147.1,MEDIUM UP,SWING,2,4/4,A1: ||Gb-7   |Abm7b5 Db7 |Gb-7   |Gb-7   |G7   |G7   |Gb-7   |E-7 A7 |D7   |Db7   |Gb-7   |Db7   ||,A12,BLUES
+430,Wayne Shorter,Eighty-One,Carter/Davis,ts,POSTBOP,F-maj,138.4,MEDIUM,SWING,5,4/4,A1: ||Fsus7   |Bbsus7   |Fsus7   |Fsus7   |Bbsus7   |Bbsus7   |Fsus7   |Fsus7   |Csus7   |Bbsus7   |Fsus7   |Fsus7   ||,A12,BLUES
+431,Wayne Shorter,Footprints,Wayne Shorter,ts,POSTBOP,C-min,136.1,MEDIUM,SWING,4,6/4,"A1: ||C-7     |C-7     |C-7     |C-7     |F-7     |F-7     |C-7     |C-7     ||
+B1: ||F#m7b5  F7913  |Em7b5  A7alt  |C-7     |C-7     ||",A12,BLUES
