@@ -62,3 +62,6 @@ data/analysis/*.csv
 data/analysis/*.json
 data/figures/*.png
 data/figures/*.pdf
+data/beats/*
+data/melody/*
+data/mus/*

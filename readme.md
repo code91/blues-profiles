@@ -11,7 +11,7 @@ If you use this code or methodology, please cite:
 ```bibtex
 @article{rubini2025blues,
   author = {Rubini, Mike},
-  title = {Blues Connotation: Cross-Artist Patterns in Improvisational Decision-Making Over the Blues Form},
+  title = {Blues Connotation: Cross-Artist Patterns in Improvisational Decision-Making},
   year = {2025},
   note = {Manuscript in preparation}
 }
