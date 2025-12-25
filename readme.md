@@ -4,6 +4,8 @@
 
 This repository contains the analysis code and data processing pipeline for a computational musicology study examining how jazz improvisers navigate the 12-bar blues form. Using 48 solos from 13 artists in the Weimar Jazz Database (1925–1991), we construct "blues profiles" combining interval vector distributions, phrase-level metrics, anticipation strategies, Granger causality patterns, and blues vocabulary deployment.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18053636.svg)](https://doi.org/10.5281/zenodo.18053636)
+
 ## Citation
 
 If you use this code or methodology, please cite:
@@ -13,7 +15,7 @@ If you use this code or methodology, please cite:
   author = {Rubini, Mike},
   title = {Blues Connotation: Cross-Artist Patterns in Improvisational Decision-Making},
   year = {2025},
-  note = {Manuscript in preparation}
+  doi = {10.5281/zenodo.18053636}
 }
 ```
 
