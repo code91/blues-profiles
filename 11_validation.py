@@ -42,7 +42,7 @@ DATA = Path('data')
 ANALYSIS = DATA / 'analysis'
 SEED = 20261004
 N_NULL = 200           # null corpora per model
-N_PERM = 2000          # label permutations for the chance level
+N_CHANCE_PERM = 1000   # label permutations for the chance level
 
 FEATURES = ['density', 'entropy', 'dissonance_ratio', 'n_notes', 'cardinality']
 
@@ -147,9 +147,11 @@ def leave_one_solo_out():
     lda = run(LinearDiscriminantAnalysis, y)
     nc = run(NearestCentroid, y)
 
+    # 1,000 permutations rather than 30: at 30 the smallest attainable p-value is
+    # 1/31, which is the same order as the result being tested.
     rng = random.Random(SEED)
     chance = []
-    for _ in range(30):
+    for _ in range(N_CHANCE_PERM):
         yy = list(y); rng.shuffle(yy)
         chance.append(run(NearestCentroid, np.array(yy)))
     beat = sum(1 for c in chance if c >= nc)
