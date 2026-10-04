@@ -133,3 +133,32 @@ https://music.mikerubini.com
 ## Acknowledgments
 
 Thanks to the Jazzomat Research Project at Hochschule für Musik Franz Liszt Weimar for making the Weimar Jazz Database freely available for research.
+
+## Note on metric names (revision, October 2026)
+
+What earlier versions called **complexity** is now called **density**, and the
+change is substantive rather than cosmetic. The sum of an interval vector over a
+pitch-class set of size *n* is C(n, 2) = n(n-1)/2 regardless of which pitch
+classes it contains, so the quantity is a bijection with set size and carries no
+information beyond it. The identity holds for all 1,170 phrases in this corpus.
+
+Where harmonic complexity is meant, the pipeline now computes **interval
+entropy**, the Shannon entropy of the interval-class distribution. It correlates
+with density at only r = 0.545 and separates cases density cannot: a diminished
+seventh scores 0.92 bits against a major triad's 1.59 despite twice the density.
+
+**Dissonance is used as a ratio to density.** Raw dissonance is a weighted
+sub-sum of the same six components, so the two correlate at r = 0.991 across the
+corpus (0.982 to 0.995 within every artist), implying a variance inflation factor
+near 59. The ratio brings that to 0.088.
+
+### Reproducibility fix
+
+`09_granger_causality.py` passed `verbose=False` to statsmodels'
+`grangercausalitytests()`. That parameter was removed in statsmodels 0.15, and
+because the call was wrapped in a broad exception handler the failure surfaced as
+NaN for every test and NONE for every direction rather than as an error, so the
+script appeared to run and produced an empty result set. The call no longer
+passes it and falls back for older versions, and statsmodels is now pinned in
+`requirements.txt`. With the fix, the published Density-Anticipation and
+Length-Density tables reproduce exactly.

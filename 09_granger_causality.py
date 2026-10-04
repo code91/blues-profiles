@@ -5,12 +5,12 @@
 Granger causality analysis for decision-making profiles.
 
 For each artist (pooled across solos):
-1. Time series: complexity(t), dissonance(t), anticipation(t) at phrase level
+1. Time series: density(t), dissonance(t), anticipation(t) at phrase level
 2. Stationarity test (ADF)
 3. Lag selection (AIC/BIC)
 4. Granger test both directions for two pairs:
-   - Complexity ↔ Dissonance
-   - Complexity ↔ Anticipation
+   - Density ↔ Dissonance
+   - Density ↔ Anticipation
 5. Compute "Gravity" scores
 
 Output:
@@ -200,7 +200,13 @@ def granger_test(data, cause_col, effect_col, maxlag=MAX_LAG):
         }
 
     try:
-        results = grangercausalitytests(test_data, maxlag=maxlag, verbose=False)
+        # statsmodels dropped `verbose` in 0.15; passing it raises, which used to
+        # surface as NaN for every test and NONE for every direction rather than
+        # as an error. Call it without, and fall back for older versions.
+        try:
+            results = grangercausalitytests(test_data, maxlag=maxlag)
+        except TypeError:
+            results = grangercausalitytests(test_data, maxlag=maxlag, verbose=False)
 
         # Find best lag by minimum p-value
         best_lag = 1
@@ -294,81 +300,102 @@ def analyze_artist(df, performer):
 
     # Residualize against tempo if enabled
     if CONTROL_FOR_TEMPO and 'tempo' in artist_df.columns:
-        metrics_to_residualize = ['complexity', 'dissonance', 'anticipation', 'n_notes', 'bluesiness']
+        metrics_to_residualize = ['density', 'dissonance_ratio', 'entropy',
+                                  'anticipation', 'n_notes', 'bluesiness']
         artist_df = residualize_against_tempo(artist_df, metrics_to_residualize)
 
         # Use residualized columns for Granger tests
-        complexity_col = 'complexity_resid' if 'complexity_resid' in artist_df.columns else 'complexity'
-        dissonance_col = 'dissonance_resid' if 'dissonance_resid' in artist_df.columns else 'dissonance'
+        density_col = 'density_resid' if 'density_resid' in artist_df.columns else 'density'
+        # Raw dissonance is a weighted sub-sum of the six components that make up
+        # density (r = 0.991 on this corpus, VIF ~ 59), so Granger between the two
+        # is close to self-prediction. The ratio removes the shared size component
+        # and brings the correlation down to 0.088. Same correction the companion
+        # Parker study made under review.
+        dissonance_col = 'dissonance_ratio_resid' if 'dissonance_ratio_resid' in artist_df.columns else 'dissonance_ratio'
+        entropy_col = 'entropy_resid' if 'entropy_resid' in artist_df.columns else 'entropy'
         anticipation_col = 'anticipation_resid' if 'anticipation_resid' in artist_df.columns else 'anticipation'
         n_notes_col = 'n_notes_resid' if 'n_notes_resid' in artist_df.columns else 'n_notes'
         bluesiness_col = 'bluesiness_resid' if 'bluesiness_resid' in artist_df.columns else 'bluesiness'
 
         results['tempo_controlled'] = True
     else:
-        complexity_col = 'complexity'
-        dissonance_col = 'dissonance'
+        density_col = 'density'
+        dissonance_col = 'dissonance_ratio'
+        entropy_col = 'entropy'
         anticipation_col = 'anticipation'
         n_notes_col = 'n_notes'
         bluesiness_col = 'bluesiness'
         results['tempo_controlled'] = False
 
     # Stationarity tests (on original metrics for interpretability)
-    for col in ['complexity', 'dissonance', 'anticipation']:
+    for col in ['density', 'dissonance_ratio', 'entropy', 'anticipation']:
         adf = adf_test(artist_df[col], col)
         results[f'adf_{col}'] = adf
 
-    # === Complexity ↔ Dissonance ===
-    # Forward: complexity → dissonance (proactive)
-    fwd_cd = granger_test(artist_df, complexity_col, dissonance_col)
-    # Backward: dissonance → complexity (reactive)
-    bwd_cd = granger_test(artist_df, dissonance_col, complexity_col)
+    # === Density ↔ Dissonance ===
+    # Forward: density → dissonance (proactive)
+    fwd_cd = granger_test(artist_df, density_col, dissonance_col)
+    # Backward: dissonance → density (reactive)
+    bwd_cd = granger_test(artist_df, dissonance_col, density_col)
 
     gravity_cd = compute_gravity(fwd_cd, bwd_cd)
 
-    results['complexity_dissonance'] = {
-        'forward': fwd_cd,  # complexity → dissonance
-        'backward': bwd_cd,  # dissonance → complexity
+    results['density_dissonance'] = {
+        'forward': fwd_cd,  # density → dissonance
+        'backward': bwd_cd,  # dissonance → density
         'gravity': gravity_cd
     }
 
-    # === Complexity ↔ Anticipation ===
-    # Forward: complexity → anticipation
-    fwd_ca = granger_test(artist_df, complexity_col, anticipation_col)
-    # Backward: anticipation → complexity
-    bwd_ca = granger_test(artist_df, anticipation_col, complexity_col)
+    # === Density ↔ Anticipation ===
+    # Forward: density → anticipation
+    fwd_ca = granger_test(artist_df, density_col, anticipation_col)
+    # Backward: anticipation → density
+    bwd_ca = granger_test(artist_df, anticipation_col, density_col)
 
     gravity_ca = compute_gravity(fwd_ca, bwd_ca)
 
-    results['complexity_anticipation'] = {
-        'forward': fwd_ca,  # complexity → anticipation
-        'backward': bwd_ca,  # anticipation → complexity
+    results['density_anticipation'] = {
+        'forward': fwd_ca,  # density → anticipation
+        'backward': bwd_ca,  # anticipation → density
         'gravity': gravity_ca
     }
 
-    # === Phrase Length ↔ Complexity ===
-    # Forward: phrase_length → complexity (does length predict next complexity?)
-    fwd_lc = granger_test(artist_df, n_notes_col, complexity_col)
-    # Backward: complexity → phrase_length (does complexity predict next length?)
-    bwd_lc = granger_test(artist_df, complexity_col, n_notes_col)
+    # === Phrase Length ↔ Density ===
+    # Forward: phrase_length → density (does length predict next density?)
+    fwd_lc = granger_test(artist_df, n_notes_col, density_col)
+    # Backward: density → phrase_length (does density predict next length?)
+    bwd_lc = granger_test(artist_df, density_col, n_notes_col)
 
     gravity_lc = compute_gravity(fwd_lc, bwd_lc)
 
-    results['length_complexity'] = {
-        'forward': fwd_lc,  # length → complexity
-        'backward': bwd_lc,  # complexity → length
+    results['length_density'] = {
+        'forward': fwd_lc,  # length → density
+        'backward': bwd_lc,  # density → length
         'gravity': gravity_lc
     }
 
-    # === Complexity → Bluesiness ===
-    fwd_cb = granger_test(artist_df, complexity_col, bluesiness_col)
-    bwd_cb = granger_test(artist_df, bluesiness_col, complexity_col)
+    # === Density → Bluesiness ===
+    fwd_cb = granger_test(artist_df, density_col, bluesiness_col)
+    bwd_cb = granger_test(artist_df, bluesiness_col, density_col)
     gravity_cb = compute_gravity(fwd_cb, bwd_cb)
 
-    results['complexity_bluesiness'] = {
-        'forward': fwd_cb,  # complexity → bluesiness
-        'backward': bwd_cb,  # bluesiness → complexity
+    results['density_bluesiness'] = {
+        'forward': fwd_cb,  # density → bluesiness
+        'backward': bwd_cb,  # bluesiness → density
         'gravity': gravity_cb
+    }
+
+    # === Interval entropy ↔ Bluesiness ===
+    # Entropy is the density measure density is not: correlation with density
+    # is 0.545, so this pair is not the near-tautology the old one was.
+    fwd_eb = granger_test(artist_df, entropy_col, bluesiness_col)
+    bwd_eb = granger_test(artist_df, bluesiness_col, entropy_col)
+    gravity_eb = compute_gravity(fwd_eb, bwd_eb)
+
+    results['entropy_bluesiness'] = {
+        'forward': fwd_eb,
+        'backward': bwd_eb,
+        'gravity': gravity_eb
     }
 
     # === Dissonance → Bluesiness ===
@@ -418,16 +445,16 @@ def plot_gravity_scores(all_results):
 
     for r in all_results:
         performers.append(r['performer'])
-        gravity_cd.append(r['complexity_dissonance']['gravity']['gravity_score'])
-        gravity_ca.append(r['complexity_anticipation']['gravity']['gravity_score'])
-        gravity_lc.append(r['length_complexity']['gravity']['gravity_score'])
-        gravity_cb.append(r['complexity_bluesiness']['gravity']['gravity_score'])
+        gravity_cd.append(r['density_dissonance']['gravity']['gravity_score'])
+        gravity_ca.append(r['density_anticipation']['gravity']['gravity_score'])
+        gravity_lc.append(r['length_density']['gravity']['gravity_score'])
+        gravity_cb.append(r['density_bluesiness']['gravity']['gravity_score'])
         gravity_db.append(r['dissonance_bluesiness']['gravity']['gravity_score'])
         gravity_lb.append(r['length_bluesiness']['gravity']['gravity_score'])
-        direction_cd.append(r['complexity_dissonance']['gravity']['direction'])
-        direction_ca.append(r['complexity_anticipation']['gravity']['direction'])
-        direction_lc.append(r['length_complexity']['gravity']['direction'])
-        direction_cb.append(r['complexity_bluesiness']['gravity']['direction'])
+        direction_cd.append(r['density_dissonance']['gravity']['direction'])
+        direction_ca.append(r['density_anticipation']['gravity']['direction'])
+        direction_lc.append(r['length_density']['gravity']['direction'])
+        direction_cb.append(r['density_bluesiness']['gravity']['direction'])
         direction_db.append(r['dissonance_bluesiness']['gravity']['direction'])
         direction_lb.append(r['length_bluesiness']['gravity']['direction'])
 
@@ -443,10 +470,10 @@ def plot_gravity_scores(all_results):
 
     # Plot configs
     plots = [
-        (gravity_cd, direction_cd, 'Complexity ↔ Dissonance', '← Reactive | Proactive →'),
-        (gravity_ca, direction_ca, 'Complexity ↔ Anticipation', '← Anticipation drives | Complexity drives →'),
-        (gravity_lc, direction_lc, 'Length ↔ Complexity', '← Complexity drives | Length drives →'),
-        (gravity_cb, direction_cb, 'Complexity → Bluesiness', '← Blues drives | Complexity drives →'),
+        (gravity_cd, direction_cd, 'Density ↔ Dissonance', '← Reactive | Proactive →'),
+        (gravity_ca, direction_ca, 'Density ↔ Anticipation', '← Anticipation drives | Density drives →'),
+        (gravity_lc, direction_lc, 'Length ↔ Density', '← Density drives | Length drives →'),
+        (gravity_cb, direction_cb, 'Density → Bluesiness', '← Blues drives | Density drives →'),
         (gravity_db, direction_db, 'Dissonance → Bluesiness', '← Blues drives | Dissonance drives →'),
         (gravity_lb, direction_lb, 'Length → Bluesiness', '← Blues drives | Length drives →'),
     ]
@@ -496,18 +523,20 @@ def main():
         all_results.append(results)
 
         # Print summary
-        cd = results['complexity_dissonance']['gravity']
-        ca = results['complexity_anticipation']['gravity']
-        lc = results['length_complexity']['gravity']
-        cb = results['complexity_bluesiness']['gravity']
+        cd = results['density_dissonance']['gravity']
+        ca = results['density_anticipation']['gravity']
+        lc = results['length_density']['gravity']
+        cb = results['density_bluesiness']['gravity']
         db = results['dissonance_bluesiness']['gravity']
         lb = results['length_bluesiness']['gravity']
-        print(f"  Complexity↔Dissonance:   {cd['direction']:12} (gravity={cd['gravity_score']:+.3f})")
-        print(f"  Complexity↔Anticipation: {ca['direction']:12} (gravity={ca['gravity_score']:+.3f})")
-        print(f"  Length↔Complexity:       {lc['direction']:12} (gravity={lc['gravity_score']:+.3f})")
-        print(f"  Complexity→Bluesiness:   {cb['direction']:12} (gravity={cb['gravity_score']:+.3f})")
+        eb = results['entropy_bluesiness']['gravity']
+        print(f"  Density↔Dissonance:   {cd['direction']:12} (gravity={cd['gravity_score']:+.3f})")
+        print(f"  Density↔Anticipation: {ca['direction']:12} (gravity={ca['gravity_score']:+.3f})")
+        print(f"  Length↔Density:       {lc['direction']:12} (gravity={lc['gravity_score']:+.3f})")
+        print(f"  Density→Bluesiness:   {cb['direction']:12} (gravity={cb['gravity_score']:+.3f})")
         print(f"  Dissonance→Bluesiness:   {db['direction']:12} (gravity={db['gravity_score']:+.3f})")
         print(f"  Length→Bluesiness:       {lb['direction']:12} (gravity={lb['gravity_score']:+.3f})")
+        print(f"  Entropy↔Bluesiness:   {eb['direction']:12} (gravity={eb['gravity_score']:+.3f})")
 
     # Summary table
     print("\n=== SUMMARY TABLE ===")
@@ -516,12 +545,13 @@ def main():
 
     summary_rows = []
     for r in all_results:
-        cd = r['complexity_dissonance']['gravity']
-        ca = r['complexity_anticipation']['gravity']
-        lc = r['length_complexity']['gravity']
-        cb = r['complexity_bluesiness']['gravity']
+        cd = r['density_dissonance']['gravity']
+        ca = r['density_anticipation']['gravity']
+        lc = r['length_density']['gravity']
+        cb = r['density_bluesiness']['gravity']
         db = r['dissonance_bluesiness']['gravity']
         lb = r['length_bluesiness']['gravity']
+        eb = r['entropy_bluesiness']['gravity']
 
         print(f"{r['performer']:20} {cd['direction'][:7]:8} {ca['direction'][:7]:8} {lc['direction'][:7]:8} "
               f"{cb['direction'][:7]:8} {db['direction'][:7]:8} {lb['direction'][:7]:8}")
@@ -545,6 +575,10 @@ def main():
             'cb_gravity': cb['gravity_score'],
             'cb_forward_sig': cb['forward_significant'],
             'cb_backward_sig': cb['backward_significant'],
+            'eb_direction': eb['direction'],
+            'eb_gravity': eb['gravity_score'],
+            'eb_forward_sig': eb['forward_significant'],
+            'eb_backward_sig': eb['backward_significant'],
             'db_direction': db['direction'],
             'db_gravity': db['gravity_score'],
             'db_forward_sig': db['forward_significant'],

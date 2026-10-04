@@ -75,8 +75,13 @@ def dtw_distance_normalized(s1, s2):
     return dtw_distance(s1, s2) / (n + m)
 
 
-def compute_complexity(iv):
-    """Complexity = sum of all IV components."""
+def compute_density(iv):
+    """Pitch-class density = sum(IV) = C(cardinality, 2).
+
+    Renamed from "density" after review: the sum of an interval vector is a
+    bijection with pitch-class-set size and measures density, not density.
+    See 06_timeseries_individual_artists.py for the full note.
+    """
     return sum(iv)
 
 
@@ -104,7 +109,7 @@ def load_phrase_data_with_chorus():
 
         for phrase in data['phrases']:
             iv = phrase['iv']
-            complexity = compute_complexity(iv)
+            density = compute_density(iv)
             anticipation = antic_lookup.get((melid, phrase['phrase_id']), np.nan)
 
             all_data.append({
@@ -113,7 +118,7 @@ def load_phrase_data_with_chorus():
                 'title': title,
                 'phrase_id': phrase['phrase_id'],
                 'chorus_id': phrase['chorus_id'],
-                'complexity': complexity,
+                'density': density,
                 'anticipation': anticipation
             })
 
@@ -205,7 +210,7 @@ def min_max_scale(values):
     return (values - vmin) / (vmax - vmin)
 
 
-def plot_aligned_grid(complexity_data, anticipation_data, n_choruses, performers):
+def plot_aligned_grid(density_data, anticipation_data, n_choruses, performers):
     """Plot aligned time series grid."""
     n_artists = len(performers)
     ncols = 3
@@ -226,19 +231,19 @@ def plot_aligned_grid(complexity_data, anticipation_data, n_choruses, performers
     for idx, performer in enumerate(performers):
         ax = axes[idx]
 
-        complexity = complexity_data.get(performer)
+        density = density_data.get(performer)
         anticipation = anticipation_data.get(performer)
 
-        if complexity is None or anticipation is None:
+        if density is None or anticipation is None:
             ax.set_visible(False)
             continue
 
         # Min-max scale
-        complexity_scaled = min_max_scale(complexity)
+        density_scaled = min_max_scale(density)
         anticipation_scaled = min_max_scale(anticipation)
 
         # Plot
-        line1, = ax.plot(x, complexity_scaled, color='steelblue', linewidth=2, label='Complexity')
+        line1, = ax.plot(x, density_scaled, color='steelblue', linewidth=2, label='Density')
         line2, = ax.plot(x, anticipation_scaled, color='forestgreen', linewidth=2, label='Anticipation')
 
         if lines_for_legend is None:
@@ -265,7 +270,7 @@ def plot_aligned_grid(complexity_data, anticipation_data, n_choruses, performers
         axes[idx].set_visible(False)
 
     # Single legend
-    fig.legend(lines_for_legend, ['Complexity', 'Anticipation'],
+    fig.legend(lines_for_legend, ['Density', 'Anticipation'],
                loc='upper center', bbox_to_anchor=(0.5, 1.02), ncol=2, fontsize=11)
 
     plt.suptitle(f'Aligned Time Series: {n_choruses} Choruses\n(Averaged across tunes, min-max scaled)',
@@ -321,7 +326,7 @@ def build_full_timeseries(df, metric):
     return results, chorus_counts
 
 
-def plot_full_trajectory_grid(complexity_data, anticipation_data, chorus_counts, performers):
+def plot_full_trajectory_grid(density_data, anticipation_data, chorus_counts, performers):
     """Plot full trajectory grid showing all choruses per artist."""
     n_artists = len(performers)
     ncols = 3
@@ -335,30 +340,30 @@ def plot_full_trajectory_grid(complexity_data, anticipation_data, chorus_counts,
     for idx, performer in enumerate(performers):
         ax = axes[idx]
 
-        complexity = complexity_data.get(performer)
+        density = density_data.get(performer)
         anticipation = anticipation_data.get(performer)
         n_choruses = chorus_counts.get(performer, 1)
 
-        if complexity is None or anticipation is None:
+        if density is None or anticipation is None:
             ax.set_visible(False)
             continue
 
         # Remove NaN from end if present
-        complexity = np.array(complexity)
+        density = np.array(density)
         anticipation = np.array(anticipation)
-        valid_mask = ~np.isnan(complexity)
-        complexity = complexity[valid_mask]
+        valid_mask = ~np.isnan(density)
+        density = density[valid_mask]
         anticipation = anticipation[valid_mask]
 
-        total_positions = len(complexity)
+        total_positions = len(density)
         x = np.linspace(0, 1, total_positions)
 
         # Min-max scale
-        complexity_scaled = min_max_scale(complexity)
+        density_scaled = min_max_scale(density)
         anticipation_scaled = min_max_scale(anticipation)
 
         # Plot
-        line1, = ax.plot(x, complexity_scaled, color='steelblue', linewidth=2, label='Complexity')
+        line1, = ax.plot(x, density_scaled, color='steelblue', linewidth=2, label='Density')
         line2, = ax.plot(x, anticipation_scaled, color='forestgreen', linewidth=2, label='Anticipation')
 
         if lines_for_legend is None:
@@ -379,7 +384,7 @@ def plot_full_trajectory_grid(complexity_data, anticipation_data, chorus_counts,
     for idx in range(len(performers), len(axes)):
         axes[idx].set_visible(False)
 
-    fig.legend(lines_for_legend, ['Complexity', 'Anticipation'],
+    fig.legend(lines_for_legend, ['Density', 'Anticipation'],
                loc='upper center', bbox_to_anchor=(0.5, 1.02), ncol=2, fontsize=11)
 
     plt.suptitle('Full Trajectory Time Series\n(All choruses, averaged across tunes, min-max scaled)',
@@ -409,15 +414,15 @@ def compute_dtw_matrix(data_dict, performers):
     return dtw_matrix
 
 
-def compute_within_artist_dtw(complexity_data, anticipation_data, performers):
+def compute_within_artist_dtw(density_data, anticipation_data, performers):
     """
-    For each artist, compute DTW distance between their complexity and anticipation trajectories.
+    For each artist, compute DTW distance between their density and anticipation trajectories.
     Lower = more coupled/synchronized movement.
     """
     results = {}
 
     for performer in performers:
-        c = complexity_data.get(performer)
+        c = density_data.get(performer)
         a = anticipation_data.get(performer)
 
         if c is None or a is None:
@@ -464,7 +469,7 @@ def plot_dtw_heatmap(dtw_matrix, performers, metric_name):
 
 
 def plot_within_artist_dtw(within_dtw, performers):
-    """Plot bar chart of within-artist DTW (complexity vs anticipation coupling)."""
+    """Plot bar chart of within-artist DTW (density vs anticipation coupling)."""
     fig, ax = plt.subplots(figsize=(10, 6))
 
     # Sort by DTW distance
@@ -474,8 +479,8 @@ def plot_within_artist_dtw(within_dtw, performers):
     colors = plt.cm.RdYlGn_r(np.linspace(0.2, 0.8, len(sorted_performers)))
 
     ax.barh(sorted_performers, values, color=colors, edgecolor='black', linewidth=0.5)
-    ax.set_xlabel('DTW Distance (Complexity vs Anticipation)')
-    ax.set_title('Complexity-Anticipation Coupling by Artist\n(Lower = more synchronized trajectories)')
+    ax.set_xlabel('DTW Distance (Density vs Anticipation)')
+    ax.set_title('Density-Anticipation Coupling by Artist\n(Lower = more synchronized trajectories)')
 
     plt.tight_layout()
     return fig
@@ -509,24 +514,24 @@ def main():
     # Build aligned time series
     print(f"\nBuilding aligned time series ({MIN_CHORUSES} choruses × {POSITIONS_PER_CHORUS} positions)...")
 
-    complexity_data = build_aligned_timeseries(df, 'complexity', MIN_CHORUSES)
+    density_data = build_aligned_timeseries(df, 'density', MIN_CHORUSES)
     anticipation_data = build_aligned_timeseries(df, 'anticipation', MIN_CHORUSES)
 
     # Filter to artists with data
-    performers = sorted([p for p in complexity_data.keys() if complexity_data[p] is not None])
+    performers = sorted([p for p in density_data.keys() if density_data[p] is not None])
     print(f"Artists with sufficient data: {len(performers)}")
 
     # Summary stats
     print("\n=== ALIGNED TIME SERIES SUMMARY ===")
     for performer in performers:
-        c = complexity_data[performer]
+        c = density_data[performer]
         a = anticipation_data[performer]
-        print(f"{performer:20} complexity: {np.mean(c):.1f} (±{np.std(c):.1f})  "
+        print(f"{performer:20} density: {np.mean(c):.1f} (±{np.std(c):.1f})  "
               f"anticipation: {np.mean(a):.2f} (±{np.std(a):.2f})")
 
     # Plot aligned grid
     print("\n=== GENERATING ALIGNED GRID ===")
-    fig = plot_aligned_grid(complexity_data, anticipation_data, MIN_CHORUSES, performers)
+    fig = plot_aligned_grid(density_data, anticipation_data, MIN_CHORUSES, performers)
     plt.savefig(FIGURES_DIR / 'timeseries_aligned_grid.png')
     plt.savefig(FIGURES_DIR / 'timeseries_aligned_grid.pdf')
     plt.close()
@@ -538,10 +543,10 @@ def main():
     # Reload full dataframe (not filtered)
     df_full = load_phrase_data_with_chorus()
 
-    full_complexity, chorus_counts = build_full_timeseries(df_full, 'complexity')
+    full_density, chorus_counts = build_full_timeseries(df_full, 'density')
     full_anticipation, _ = build_full_timeseries(df_full, 'anticipation')
 
-    all_performers = sorted([p for p in full_complexity.keys() if full_complexity[p] is not None])
+    all_performers = sorted([p for p in full_density.keys() if full_density[p] is not None])
     print(f"Artists with full trajectories: {len(all_performers)}")
 
     for performer in all_performers:
@@ -549,7 +554,7 @@ def main():
 
     # Plot full trajectory grid
     print("\n=== GENERATING FULL TRAJECTORY GRID ===")
-    fig = plot_full_trajectory_grid(full_complexity, full_anticipation, chorus_counts, all_performers)
+    fig = plot_full_trajectory_grid(full_density, full_anticipation, chorus_counts, all_performers)
     plt.savefig(FIGURES_DIR / 'timeseries_full_trajectory_grid.png')
     plt.savefig(FIGURES_DIR / 'timeseries_full_trajectory_grid.pdf')
     plt.close()
@@ -558,34 +563,34 @@ def main():
     # === DTW ANALYSIS ===
     print("\n=== DTW ANALYSIS ===")
 
-    # DTW matrix for complexity trajectories
-    print("Computing DTW matrix for complexity...")
-    dtw_complexity = compute_dtw_matrix(full_complexity, all_performers)
+    # DTW matrix for density trajectories
+    print("Computing DTW matrix for density...")
+    dtw_density = compute_dtw_matrix(full_density, all_performers)
 
     print("Computing DTW matrix for anticipation...")
     dtw_anticipation = compute_dtw_matrix(full_anticipation, all_performers)
 
-    # Within-artist DTW (complexity vs anticipation coupling)
-    print("Computing within-artist DTW (complexity-anticipation coupling)...")
-    within_dtw = compute_within_artist_dtw(full_complexity, full_anticipation, all_performers)
+    # Within-artist DTW (density vs anticipation coupling)
+    print("Computing within-artist DTW (density-anticipation coupling)...")
+    within_dtw = compute_within_artist_dtw(full_density, full_anticipation, all_performers)
 
     # Print DTW summary
     print("\n=== DTW SIMILARITY SUMMARY ===")
-    print("\nMost similar pairs (Complexity):")
+    print("\nMost similar pairs (Density):")
     pairs = []
     for i, p1 in enumerate(all_performers):
         for j, p2 in enumerate(all_performers):
             if i < j:
-                pairs.append((p1, p2, dtw_complexity[i, j]))
+                pairs.append((p1, p2, dtw_density[i, j]))
     pairs.sort(key=lambda x: x[2])
     for p1, p2, dist in pairs[:5]:
         print(f"  {p1} ↔ {p2}: {dist:.3f}")
 
-    print("\nMost different pairs (Complexity):")
+    print("\nMost different pairs (Density):")
     for p1, p2, dist in pairs[-5:]:
         print(f"  {p1} ↔ {p2}: {dist:.3f}")
 
-    print("\nComplexity-Anticipation Coupling (within artist):")
+    print("\nDensity-Anticipation Coupling (within artist):")
     sorted_coupling = sorted(within_dtw.items(), key=lambda x: x[1])
     for performer, dist in sorted_coupling:
         coupling_level = "HIGH" if dist < 0.05 else "MEDIUM" if dist < 0.1 else "LOW"
@@ -595,11 +600,11 @@ def main():
     dtw_results = {
         'performers': all_performers,
         'chorus_counts': {k: int(v) for k, v in chorus_counts.items()},
-        'dtw_complexity_matrix': dtw_complexity.tolist(),
+        'dtw_density_matrix': dtw_density.tolist(),
         'dtw_anticipation_matrix': dtw_anticipation.tolist(),
         'within_artist_dtw': {k: float(v) for k, v in within_dtw.items()},
-        'most_similar_complexity': [(p1, p2, float(d)) for p1, p2, d in pairs[:5]],
-        'most_different_complexity': [(p1, p2, float(d)) for p1, p2, d in pairs[-5:]]
+        'most_similar_density': [(p1, p2, float(d)) for p1, p2, d in pairs[:5]],
+        'most_different_density': [(p1, p2, float(d)) for p1, p2, d in pairs[-5:]]
     }
 
     ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
@@ -609,11 +614,11 @@ def main():
     # Plot DTW heatmaps
     print("\n=== GENERATING DTW FIGURES ===")
 
-    fig = plot_dtw_heatmap(dtw_complexity, all_performers, 'Complexity')
-    plt.savefig(FIGURES_DIR / 'dtw_complexity_heatmap.png')
-    plt.savefig(FIGURES_DIR / 'dtw_complexity_heatmap.pdf')
+    fig = plot_dtw_heatmap(dtw_density, all_performers, 'Density')
+    plt.savefig(FIGURES_DIR / 'dtw_density_heatmap.png')
+    plt.savefig(FIGURES_DIR / 'dtw_density_heatmap.pdf')
     plt.close()
-    print("  dtw_complexity_heatmap.png")
+    print("  dtw_density_heatmap.png")
 
     fig = plot_dtw_heatmap(dtw_anticipation, all_performers, 'Anticipation')
     plt.savefig(FIGURES_DIR / 'dtw_anticipation_heatmap.png')
@@ -633,7 +638,7 @@ def main():
     print(f"\nOutput files:")
     print(f"  {FIGURES_DIR / 'timeseries_aligned_grid.png'}")
     print(f"  {FIGURES_DIR / 'timeseries_full_trajectory_grid.png'}")
-    print(f"  {FIGURES_DIR / 'dtw_complexity_heatmap.png'}")
+    print(f"  {FIGURES_DIR / 'dtw_density_heatmap.png'}")
     print(f"  {FIGURES_DIR / 'dtw_anticipation_heatmap.png'}")
     print(f"  {FIGURES_DIR / 'dtw_within_artist_coupling.png'}")
     print(f"  {ANALYSIS_DIR / 'dtw_results.json'}")
