@@ -1,4 +1,4 @@
-# Blues Connotation
+# Blues Connotation: Cross-Artist Patterns in Intervallic Content and Harmonic Choice
 
 **Cross-Artist Patterns in Improvisational Decision-Making Over the Blues Form**
 
@@ -133,6 +133,30 @@ https://music.mikerubini.com
 ## Acknowledgments
 
 Thanks to the Jazzomat Research Project at Hochschule für Musik Franz Liszt Weimar for making the Weimar Jazz Database freely available for research.
+
+
+## What the analysis concluded
+
+Every candidate measure is tested against the baseline appropriate to it, and most do not
+survive.
+
+Four claims stand: interval vector distributions differ between artists (eta squared 0.12,
+p = .003, permuting artist labels across whole solos rather than phrases); that difference
+persists with historical style held constant (p = .006); a held-out nearest-centroid
+classifier attributes unseen solos at 22.9% against a 7.6% permuted baseline (p = .005); and
+the dissonance ratio exceeds a chord-scale null for eleven of thirteen artists.
+
+Six do not. Phrase length differs by more than a factor of two between players but is
+indistinguishable from chance once the solo is the independent unit (p = .17). Blues-catalogue
+membership occurs no more often than drawing notes from the chords in force would produce
+(z = -0.22), and interval entropy likewise (z = -0.48). Density is tautological, being C(n,2)
+in the pitch-class count. Type-token ratio reorders ten of thirteen artists once every artist
+is rarefied to the same 29 phrases. And phrase-to-phrase Granger dependence is absent: of 182
+tests thirteen reach p < .05 where roughly nine are expected from noise, and none survives
+false discovery rate correction at any lag.
+
+Scripts 10 to 12 implement those baselines. An interactive view of the per-artist numbers is
+at https://github.com/code91/blues-profiles-explorer.
 
 ## Note on metric names (revision, October 2026)
 
