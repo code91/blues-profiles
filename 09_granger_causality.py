@@ -339,7 +339,9 @@ def analyze_artist(df, performer):
         results['tempo_controlled'] = False
 
     # Stationarity tests (on original metrics for interpretability)
-    for col in ['density', 'dissonance_ratio', 'entropy', 'anticipation']:
+    # Phrase length is tested too; bluesiness is a 0/1 indicator, for which a unit
+    # root is not a meaningful hypothesis, so it is reported as bounded instead.
+    for col in ['density', 'dissonance_ratio', 'entropy', 'anticipation', 'n_notes']:
         adf = adf_test(artist_df[col], col)
         results[f'adf_{col}'] = adf
 
