@@ -65,3 +65,9 @@ data/figures/*.pdf
 data/beats/*
 data/melody/*
 data/mus/*
+
+# WJazzD-derived transcriptions are not ours to redistribute.
+# Script 01 downloads the database from the Jazzomat project and regenerates these.
+data/melody/
+data/beats/
+data/mus/

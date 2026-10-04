@@ -162,3 +162,17 @@ script appeared to run and produced an empty result set. The call no longer
 passes it and falls back for older versions, and statsmodels is now pinned in
 `requirements.txt`. With the fix, the published Density-Anticipation and
 Length-Density tables reproduce exactly.
+
+## Data and licensing
+
+This repository contains **code and computed summaries only**. It redistributes
+none of the Weimar Jazz Database: the note-level transcriptions and the beat and
+chord annotations are the Jazzomat project's work, distributed by the Hochschule
+für Musik Franz Liszt Weimar under its own terms, and are not ours to relicense.
+Earlier revisions of this repository did carry extracted copies of them under
+`data/melody/`, `data/beats/` and `data/mus/`; those have been removed.
+
+`01_extract_blues_corpus.py` downloads `wjazzd.db` from the Jazzomat project and
+regenerates every derived file, so the pipeline still runs end to end from a
+clean checkout. The CC BY-NC-SA 4.0 licence on this repository covers the code
+and the summaries computed from it, not the underlying corpus.

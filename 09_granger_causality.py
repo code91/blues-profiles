@@ -37,7 +37,8 @@ TIMESERIES_DIR = Path("data/timeseries")
 ANALYSIS_DIR = Path("data/analysis")
 FIGURES_DIR = Path("data/figures")
 
-MAX_LAG = 4  # Maximum lag to test
+MAX_LAG = 4       # upper bound for the sensitivity sweep
+GRANGER_LAG = 1   # fixed a priori; granger_lag_sweep() reports the alternatives
 CONTROL_FOR_TEMPO = True  # Whether to residualize metrics against tempo
 
 plt.rcParams.update({
@@ -146,7 +147,13 @@ def load_timeseries_with_all_metrics():
     # Add bluesiness metrics
     ts_df['iv_tuple'] = ts_df.apply(lambda row: iv_lookup.get((row['melid'], row['phrase_id']), None), axis=1)
     ts_df['is_blues'] = ts_df['iv_tuple'].apply(lambda iv: 1 if iv in BLUES_IVS else 0)
-    ts_df['bluesiness'] = ts_df['iv_tuple'].apply(lambda iv: BLUES_IVS.get(iv, 0))
+    # Binary, deliberately. The BLUES_IVS values are the cardinality of each
+    # catalogue set, so the weighted variable used previously was
+    # cardinality x 1[iv in catalogue] -- it carried the pitch-class count
+    # inside it, and density predicting it was partly density predicting
+    # density. The cardinality is kept separately for description only.
+    ts_df['bluesiness'] = ts_df['is_blues']
+    ts_df['blues_cardinality'] = ts_df['iv_tuple'].apply(lambda iv: BLUES_IVS.get(iv, 0))
 
     return ts_df
 
@@ -177,74 +184,78 @@ def select_lag(data, maxlag=MAX_LAG):
         return 1
 
 
-def granger_test(data, cause_col, effect_col, maxlag=MAX_LAG):
+def _design(data, cause_col, effect_col, lag, group_col='melid'):
+    """Lagged design for a Granger test, built WITHIN each solo.
+
+    statsmodels' grangercausalitytests() takes one array and lags it blindly,
+    which across a concatenated artist means the last phrases of one solo are
+    used to predict the first phrases of the next. Those transitions are not
+    musical continuations and must not be in the design. Building the lags per
+    group and stacking is the only way to exclude them, and it is why this test
+    is implemented here rather than called from statsmodels.
+
+    Returns (y, X_restricted, X_unrestricted) or None when too little data.
     """
-    Run Granger causality test.
+    ys, xr, xu = [], [], []
+    for _, grp in data.groupby(group_col, sort=False):
+        g = grp[[effect_col, cause_col]].dropna()
+        if len(g) < lag + 2:
+            continue
+        eff = g[effect_col].to_numpy(dtype=float)
+        cau = g[cause_col].to_numpy(dtype=float)
+        for t in range(lag, len(g)):
+            ys.append(eff[t])
+            own = [eff[t - k] for k in range(1, lag + 1)]
+            oth = [cau[t - k] for k in range(1, lag + 1)]
+            xr.append([1.0] + own)
+            xu.append([1.0] + own + oth)
+    if len(ys) < 2 * lag + 5:
+        return None
+    return np.array(ys), np.array(xr), np.array(xu)
 
-    Tests if cause_col Granger-causes effect_col.
-    Returns F-statistic and p-value for optimal lag.
+
+def _ols_rss(y, X):
+    beta, *_ = np.linalg.lstsq(X, y, rcond=None)
+    resid = y - X @ beta
+    return float(resid @ resid)
+
+
+def granger_test(data, cause_col, effect_col, lag=GRANGER_LAG, group_col='melid'):
+    """Does cause_col Granger-cause effect_col, at a FIXED lag?
+
+    The lag is fixed a priori rather than chosen per test. The previous version
+    searched lags 1..4 and kept whichever gave the smallest p-value, which is a
+    selection over four tests and inflates significance on top of the multiple
+    comparisons already corrected for downstream. Sensitivity across lags is
+    reported separately by granger_lag_sweep().
     """
-    # Prepare data: [effect, cause] order for statsmodels
-    test_data = data[[effect_col, cause_col]].dropna()
-
-    if len(test_data) < maxlag + 5:
-        return {
-            'cause': cause_col,
-            'effect': effect_col,
-            'f_statistic': np.nan,
-            'p_value': np.nan,
-            'optimal_lag': np.nan,
-            'n_obs': len(test_data),
-            'significant': False,
-            'error': 'Insufficient data'
-        }
-
+    built = _design(data, cause_col, effect_col, lag, group_col)
+    if built is None:
+        return {'cause': cause_col, 'effect': effect_col, 'f_statistic': np.nan,
+                'p_value': np.nan, 'lag': lag, 'n_obs': 0,
+                'significant': False, 'error': 'Insufficient data'}
+    y, Xr, Xu = built
     try:
-        # statsmodels dropped `verbose` in 0.15; passing it raises, which used to
-        # surface as NaN for every test and NONE for every direction rather than
-        # as an error. Call it without, and fall back for older versions.
-        try:
-            results = grangercausalitytests(test_data, maxlag=maxlag)
-        except TypeError:
-            results = grangercausalitytests(test_data, maxlag=maxlag, verbose=False)
-
-        # Find best lag by minimum p-value
-        best_lag = 1
-        best_p = 1.0
-        best_f = 0.0
-
-        for lag in range(1, maxlag + 1):
-            if lag in results:
-                # Get F-test results (ssr based F test)
-                f_stat = results[lag][0]['ssr_ftest'][0]
-                p_val = results[lag][0]['ssr_ftest'][1]
-
-                if p_val < best_p:
-                    best_p = p_val
-                    best_f = f_stat
-                    best_lag = lag
-
-        return {
-            'cause': cause_col,
-            'effect': effect_col,
-            'f_statistic': float(best_f),
-            'p_value': float(best_p),
-            'optimal_lag': int(best_lag),
-            'n_obs': len(test_data),
-            'significant': best_p < 0.05,
-            'error': None
-        }
+        rss_r, rss_u = _ols_rss(y, Xr), _ols_rss(y, Xu)
+        df_num = Xu.shape[1] - Xr.shape[1]
+        df_den = len(y) - Xu.shape[1]
+        if df_den <= 0 or rss_u <= 0:
+            raise ValueError('degenerate fit')
+        f = ((rss_r - rss_u) / df_num) / (rss_u / df_den)
+        p = float(1.0 - scipy_stats.f.cdf(f, df_num, df_den))
+        return {'cause': cause_col, 'effect': effect_col, 'f_statistic': float(f),
+                'p_value': p, 'lag': lag, 'n_obs': int(len(y)),
+                'significant': bool(p < 0.05), 'error': None}
     except Exception as e:
-        return {
-            'cause': cause_col,
-            'effect': effect_col,
-            'f_statistic': np.nan,
-            'p_value': np.nan,
-            'optimal_lag': np.nan,
-            'n_obs': len(test_data),
-            'significant': False,
-            'error': str(e)
-        }
+        return {'cause': cause_col, 'effect': effect_col, 'f_statistic': np.nan,
+                'p_value': np.nan, 'lag': lag, 'n_obs': int(len(y)),
+                'significant': False, 'error': str(e)}
+
+
+def granger_lag_sweep(data, cause_col, effect_col, lags=(1, 2, 3, 4), group_col='melid'):
+    """The same test at every lag, so the reader can see what the choice costs."""
+    return {lag: granger_test(data, cause_col, effect_col, lag, group_col)
+            for lag in lags}
 
 
 def compute_gravity(result_forward, result_backward):
@@ -383,6 +394,14 @@ def analyze_artist(df, performer):
         'forward': fwd_cb,  # density → bluesiness
         'backward': bwd_cb,  # bluesiness → density
         'gravity': gravity_cb
+    }
+
+    # Sensitivity: the same three headline pairs at every lag, so the fixed
+    # choice of lag 1 can be checked rather than taken on trust.
+    results['lag_sweep'] = {
+        'density_bluesiness': granger_lag_sweep(artist_df, density_col, bluesiness_col),
+        'length_bluesiness': granger_lag_sweep(artist_df, n_notes_col, bluesiness_col),
+        'density_anticipation': granger_lag_sweep(artist_df, density_col, anticipation_col),
     }
 
     # === Interval entropy ↔ Bluesiness ===
